@@ -18,7 +18,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'chemical-dashboard=dashboard.app:chemical_dashboard',
+            'chemical-dashboard=chemical_safety.dashboard.app:dashboard',
         ],
     },
 )

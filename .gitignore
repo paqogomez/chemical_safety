@@ -1,5 +1,7 @@
 chemical_safety/chemical/data/
 wsu_inventory/
 development_scratch/
+chemical_safety.egg-info/
+chemical_safety/__pycache__/
 chemical_safety/chemical/__pycache__/
 chemical_safety/dashboard/__pycache__/
