@@ -6,5 +6,5 @@ stores all GHS info
 
 ## dashboard
 direct from command prompt:
-`chemical-safety-dashboard`
+`chemical-dashboard`
 then it's on localhost:5000
