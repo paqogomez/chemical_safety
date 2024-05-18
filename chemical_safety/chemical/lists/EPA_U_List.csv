@@ -1,0 +1,985 @@
+code,CAS,name,cid
+U394,30558-43-1,A2213.,0
+U001,75-07-0,Acetaldehyde (I),177
+U034,75-87-6,"Acetaldehyde, trichloro-",6407
+U187,62-44-2,"Acetamide, N-(4-ethoxyphenyl)-",4754
+U005,53-96-3,"Acetamide, N-9H-fluoren-2-yl-",5897
+U240,1 94-75-7,"Acetic acid, (2,4-dichlorophenoxy)-, salts & esters",0
+U112,141-78-6,Acetic acid ethyl ester (I),8857
+U144,301-04-2,"Acetic acid, lead(2+) salt",9317
+U214,563-68-8,"Acetic acid, thallium(1+) salt",11247
+see F027,93-76-5,"Acetic acid, (2,4,5-trichlorophenoxy)-",1480
+U002,67-64-1,Acetone (I),180
+U003,75-05-8,"Acetonitrile (I,T)",6342
+U004,98-86-2,Acetophenone,7410
+U005,53-96-3,2-Acetylaminofluorene,5897
+U006,75-36-5,"Acetyl chloride (C,R,T)",6367
+U007,79-06-1,Acrylamide,6579
+U008,79-10-7,Acrylic acid (I),6581
+U009,107-13-1,Acrylonitrile,7855
+U011,61-82-5,Amitrole,1639
+U012,62-53-3,"Aniline (I,T)",6115
+U136,75-60-5,"Arsinic acid, dimethyl-",2513
+,,,445063
+U014,492-80-8,Auramine,10298
+U015,115-02-6,Azaserine,460129
+U010,50-07-7,"Azirino[2′,3′:3,4]pyrrolo[1,2-a]indole-4,7-dione, 6-amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methyl-, [1aS-(1aalpha, 8beta,8aalpha,8balpha)]-",5746
+U280,101-27-9,Barban.,7551
+U278,22781-23-3,Bendiocarb.,2314
+U364,22961-82-6,Bendiocarb phenol.,62765
+U271,17804-35-2,Benomyl.,28780
+U157,56-49-5,"Benz[j]aceanthrylene, 1,2-dihydro-3-methyl-",1674
+U016,225-51-4,Benz[c]acridine,9181
+U017,98-87-3,Benzal chloride,7411
+U192,23950-58-5,"Benzamide, 3,5-dichloro-N-(1,1-dimethyl-2-propynyl)-",32154
+U018,56-55-3,Benz[a]anthracene,5954
+U094,57-97-6,"Benz[a]anthracene, 7,12-dimethyl-",6001
+U012,62-53-3,"Benzenamine (I,T)",6115
+U014,492-80-8,"Benzenamine, 4,4′-carbonimidoylbis[N,N-dimethyl-",10298
+U049,3165-93-3,"Benzenamine, 4-chloro-2-methyl-, hydrochloride",18487
+U093,60-11-7,"Benzenamine, N,N-dimethyl-4-(phenylazo)-",6053
+U328,95-53-4,"Benzenamine, 2-methyl-",7242
+U353,106-49-0,"Benzenamine, 4-methyl-",7813
+U158,101-14-4,"Benzenamine, 4,4′-methylenebis[2-chloro-",7543
+U222,636-21-5,"Benzenamine, 2-methyl-, hydrochloride",12484
+U181,99-55-8,"Benzenamine, 2-methyl-5-nitro-",7444
+U019,71-43-2,"Benzene (I,T)",241
+U038,510-15-6,"Benzeneacetic acid, 4-chloro-alpha-(4-chlorophenyl)-alpha-hydroxy-, ethyl ester",10522
+U030,101-55-3,"Benzene, 1-bromo-4-phenoxy-",7565
+U035,305-03-3,"Benzenebutanoic acid, 4-[bis(2-chloroethyl)amino]-",2708
+U037,108-90-7,"Benzene, chloro-",7964
+U221,25376-45-8,"Benzenediamine, ar-methyl-",7252
+U028,117-81-7,"1,2-Benzenedicarboxylic acid, bis(2-ethylhexyl) ester",8343
+U069,84-74-2,"1,2-Benzenedicarboxylic acid, dibutyl ester",3026
+U088,84-66-2,"1,2-Benzenedicarboxylic acid, diethyl ester",6781
+U102,131-11-3,"1,2-Benzenedicarboxylic acid, dimethyl ester",8554
+U107,117-84-0,"1,2-Benzenedicarboxylic acid, dioctyl ester",8346
+U070,95-50-1,"Benzene, 1,2-dichloro-",7239
+U071,541-73-1,"Benzene, 1,3-dichloro-",10943
+U072,106-46-7,"Benzene, 1,4-dichloro-",4685
+U060,72-54-8,"Benzene, 1,1′-(2,2-dichloroethylidene)bis[4-chloro-",6294
+U017,98-87-3,"Benzene, (dichloromethyl)-",7411
+U223,26471-62-5,"Benzene, 1,3-diisocyanatomethyl- (R,T)",0
+U239,1330-20-7,"Benzene, dimethyl- (I)",0
+U201,108-46-3,"1,3-Benzenediol",5054
+U127,118-74-1,"Benzene, hexachloro-",8370
+U056,110-82-7,"Benzene, hexahydro- (I)",8078
+U220,108-88-3,"Benzene, methyl-",1140
+U105,121-14-2,"Benzene, 1-methyl-2,4-dinitro-",8461
+U106,606-20-2,"Benzene, 2-methyl-1,3-dinitro-",11813
+U055,98-82-8,"Benzene, (1-methylethyl)- (I)",7406
+U169,98-95-3,"Benzene, nitro-",7416
+U183,608-93-5,"Benzene, pentachloro-",11855
+U185,82-68-8,"Benzene, pentachloronitro-",6720
+U020,98-09-9,"Benzenesulfonic acid chloride (C,R)",7369
+U020,98-09-9,"Benzenesulfonyl chloride (C,R)",7369
+U207,95-94-3,"Benzene, 1,2,4,5-tetrachloro-",7270
+U061,50-29-3,"Benzene, 1,1′-(2,2,2-trichloroethylidene)bis[4-chloro-",3036
+U247,72-43-5,"Benzene, 1,1′-(2,2,2-trichloroethylidene)bis[4- methoxy-",4115
+U023,98-07-7,"Benzene, (trichloromethyl)-",7367
+U234,99-35-4,"Benzene, 1,3,5-trinitro-",7434
+U021,92-87-5,Benzidine,7111
+U278,22781-23-3,"1,3-Benzodioxol-4-ol, 2,2-dimethyl-, methyl carbamate.",2314
+U364,22961-82-6,"1,3-Benzodioxol-4-ol, 2,2-dimethyl-,",62765
+U203,94-59-7,"1,3-Benzodioxole, 5-(2-propenyl)-",5144
+U141,120-58-1,"1,3-Benzodioxole, 5-(1-propenyl)-",637796
+U367,1563-38-8,"7-Benzofuranol, 2,3-dihydro-2,2-dimethyl-",15278
+U090,94-58-6,"1,3-Benzodioxole, 5-propyl-",7197
+U064,189-55-9,Benzo[rst]pentaphene,9106
+U248,181-81-2,"2H-1-Benzopyran-2-one, 4-hydroxy-3-(3-oxo-1-phenyl-butyl)-, & salts, when present at concentrations of 0.3% or less",0
+U022,50-32-8,Benzo[a]pyrene,2336
+U197,106-51-4,p-Benzoquinone,4650
+U023,98-07-7,"Benzotrichloride (C,R,T)",7367
+U085,1464-53-5,"2,2′-Bioxirane",11254
+,,,445063
+U021,92-87-5,"[1,1′-Biphenyl]-4,4′-diamine",7111
+U073,91-94-1,"[1,1′-Biphenyl]-4,4′-diamine, 3,3′-dichloro-",7070
+U091,119-90-4,"[1,1′-Biphenyl]-4,4′-diamine, 3,3′-dimethoxy-",8411
+U095,119-93-7,"[1,1′-Biphenyl]-4,4′-diamine, 3,3′-dimethyl-",8413
+U225,75-25-2,Bromoform,5558
+U030,101-55-3,4-Bromophenyl phenyl ether,7565
+U128,87-68-3,"1,3-Butadiene, 1,1,2,3,4,4-hexachloro-",6901
+U172,924-16-3,"1-Butanamine, N-butyl-N-nitroso-",13542
+U031,71-36-3,1-Butanol (I),263
+U159,78-93-3,"2-Butanone (I,T)",6569
+U160,1338-23-4,"2-Butanone, peroxide (R,T)",3672772
+U053,4170-30-3,2-Butenal,447466
+U074,764-41-0,"2-Butene, 1,4-dichloro- (I,T)",642197
+U143,303-34-4,"2-Butenoic acid, 2-methyl-, 7-[[2,3-dihydroxy-2-(1-methoxyethyl)-3-methyl-1-oxobutoxy]methyl]- 2,3,5,7a-tetrahydro-1H-pyrrolizin-1-yl ester, [1S-[1alpha(Z),7(2S*,3R*),7aalpha]]-",5281735
+U031,71-36-3,n-Butyl alcohol (I),263
+U136,75-60-5,Cacodylic acid,2513
+U032,13765-19-0,Calcium chromate,26264
+U372,10605-21-7,"Carbamic acid, 1H-benzimidazol-2-yl, methyl ester.",25429
+U271,17804-35-2,"Carbamic acid, [1-[(butylamino)carbonyl]-1H-benzimidazol-2-yl]-, methyl ester.",28780
+U280,101-27-9,"Carbamic acid, (3-chlorophenyl)-, 4-chloro-2-butynyl ester.",7551
+U238,51-79-6,"Carbamic acid, ethyl ester",5641
+U178,615-53-2,"Carbamic acid, methylnitroso-, ethyl ester",12001
+U373,122-42-9,"Carbamic acid, phenyl-, 1-methylethyl ester.",24685
+U409,23564-05-8,"Carbamic acid, [1,2-phenylenebis (iminocarbonothioyl)]bis-, dimethyl ester.",3032791
+U097,79-44-7,"Carbamic chloride, dimethyl-",6598
+U389,2303-17-5,"Carbamothioic acid, bis(1-methylethyl)-, S-(2,3,3-trichloro-2-propenyl) ester.",5543
+U387,52888-80-9,"Carbamothioic acid, dipropyl-, S-(phenylmethyl) ester.",62020
+U114,1 111-54-6,"Carbamodithioic acid, 1,2-ethanediylbis-,salts & esters",0
+U062,2303-16-4,"Carbamothioic acid, bis(1-methylethyl)-, S-(2,3-di-chloro-2-propenyl) ester",5284376
+U279,63-25-2,Carbaryl.,6129
+U372,10605-21-7,Carbendazim.,25429
+U367,1563-38-8,Carbofuran phenol.,15278
+U215,6533-73-9,"Carbonic acid, dithallium(1+) salt",23031
+U033,353-50-4,Carbonic difluoride,9623
+U156,79-22-1,"Carbonochloridic acid, methyl ester (I,T)",6586
+U033,353-50-4,"Carbon oxyfluoride (R,T)",9623
+U211,56-23-5,Carbon tetrachloride,5943
+U034,75-87-6,Chloral,6407
+U035,305-03-3,Chlorambucil,2708
+U036,57-74-9,"Chlordane, alpha & gamma isomers",5993
+U026,494-03-1,Chlornaphazin,10307
+U037,108-90-7,Chlorobenzene,7964
+U038,510-15-6,Chlorobenzilate,10522
+U039,59-50-7,p-Chloro-m-cresol,1732
+U042,110-75-8,2-Chloroethyl vinyl ether,8074
+U044,67-66-3,Chloroform,6212
+U046,107-30-2,Chloromethyl methyl ether,7864
+U047,91-58-7,beta-Chloronaphthalene,7056
+U048,95-57-8,o-Chlorophenol,7245
+U049,3165-93-3,"4-Chloro-o-toluidine, hydrochloride",18487
+U032,13765-19-0,"Chromic acid H2 CrO4, calcium salt",26264
+U050,218-01-9,Chrysene,9171
+U051,,Creosote,445063
+U052,1319-77-3,Cresol (Cresylic acid),0
+U053,4170-30-3,Crotonaldehyde,447466
+U055,98-82-8,Cumene (I),7406
+U246,506-68-3,Cyanogen bromide (CN)Br,10476
+U197,106-51-4,"2,5-Cyclohexadiene-1,4-dione",4650
+U056,110-82-7,Cyclohexane (I),8078
+U129,58-89-9,"Cyclohexane, 1,2,3,4,5,6-hexachloro-,(1alpha,2alpha,3beta,4alpha,5alpha,6beta)-",727
+U057,108-94-1,Cyclohexanone (I),7967
+U130,77-47-4,"1,3-Cyclopentadiene, 1,2,3,4,5,5-hexachloro-",6478
+U058,50-18-0,Cyclophosphamide,2907
+U240,1 94-75-7,"2,4-D, salts & esters",0
+U059,20830-81-3,Daunomycin,30323
+U060,72-54-8,DDD,6294
+U061,50-29-3,DDT,3036
+,,,445063
+U062,2303-16-4,Diallate,5284376
+U063,53-70-3,"Dibenz[a,h]anthracene",5889
+U064,189-55-9,"Dibenzo[a,i]pyrene",9106
+U066,96-12-8,"1,2-Dibromo-3-chloropropane",7280
+U069,84-74-2,Dibutyl phthalate,3026
+U070,95-50-1,o-Dichlorobenzene,7239
+U071,541-73-1,m-Dichlorobenzene,10943
+U072,106-46-7,p-Dichlorobenzene,4685
+U073,91-94-1,"3,3′-Dichlorobenzidine",7070
+U074,764-41-0,"1,4-Dichloro-2-butene (I,T)",642197
+U075,75-71-8,Dichlorodifluoromethane,6391
+U078,75-35-4,"1,1-Dichloroethylene",6366
+U079,156-60-5,"1,2-Dichloroethylene",638186
+U025,111-44-4,Dichloroethyl ether,8115
+U027,108-60-1,Dichloroisopropyl ether,7944
+U024,111-91-1,Dichloromethoxy ethane,8147
+U081,120-83-2,"2,4-Dichlorophenol",8449
+U082,87-65-0,"2,6-Dichlorophenol",6899
+U084,542-75-6,"1,3-Dichloropropene",24883
+U085,1464-53-5,"1,2:3,4-Diepoxybutane (I,T)",11254
+U108,123-91-1,"1,4-Diethyleneoxide",31275
+U028,117-81-7,Diethylhexyl phthalate,8343
+U395,5952-26-1,"Diethylene glycol, dicarbamate.",0
+U086,1615-80-1,"N,N′-Diethylhydrazine",15374
+U087,3288-58-2,"O,O-Diethyl S-methyl dithiophosphate",0
+U088,84-66-2,Diethyl phthalate,6781
+U089,56-53-1,Diethylstilbesterol,448537
+U090,94-58-6,Dihydrosafrole,7197
+U091,119-90-4,"3,3′-Dimethoxybenzidine",8411
+U092,124-40-3,Dimethylamine (I),674
+U093,60-11-7,p-Dimethylaminoazobenzene,6053
+U094,57-97-6,"7,12-Dimethylbenz[a]anthracene",6001
+U095,119-93-7,"3,3′-Dimethylbenzidine",8413
+U096,80-15-9,"alpha,alpha-Dimethylbenzylhydroperoxide (R)",6629
+U097,79-44-7,Dimethylcarbamoyl chloride,6598
+U098,57-14-7,"1,1-Dimethylhydrazine",5976
+U099,540-73-8,"1,2-Dimethylhydrazine",1322
+U101,105-67-9,"2,4-Dimethylphenol",7771
+U102,131-11-3,Dimethyl phthalate,8554
+U103,77-78-1,Dimethyl sulfate,6497
+U105,121-14-2,"2,4-Dinitrotoluene",8461
+U106,606-20-2,"2,6-Dinitrotoluene",11813
+U107,117-84-0,Di-n-octyl phthalate,8346
+U108,123-91-1,"1,4-Dioxane",31275
+U109,122-66-7,"1,2-Diphenylhydrazine",31222
+U110,142-84-7,Dipropylamine (I),8902
+U111,621-64-7,Di-n-propylnitrosamine,12130
+U041,106-89-8,Epichlorohydrin,7835
+U001,75-07-0,Ethanal (I),177
+U404,121-44-8,"Ethanamine, N,N-diethyl-",8471
+U174,55-18-5,"Ethanamine, N-ethyl-N-nitroso-",5921
+U155,91-80-5,"1,2-Ethanediamine, N,N-dimethyl-N′-2-pyridinyl-N′-(2-thienylmethyl)-",4098
+U067,106-93-4,"Ethane, 1,2-dibromo-",7839
+U076,75-34-3,"Ethane, 1,1-dichloro-",6365
+U077,107-06-2,"Ethane, 1,2-dichloro-",11
+U131,67-72-1,"Ethane, hexachloro-",6214
+U024,111-91-1,"Ethane, 1,1′-[methylenebis(oxy)]bis[2-chloro-",8147
+U117,60-29-7,"Ethane, 1,1′-oxybis-(I)",3283
+U025,111-44-4,"Ethane, 1,1′-oxybis[2-chloro-",8115
+U184,76-01-7,"Ethane, pentachloro-",6419
+U208,630-20-6,"Ethane, 1,1,1,2-tetrachloro-",12418
+U209,79-34-5,"Ethane, 1,1,2,2-tetrachloro-",6591
+U218,62-55-5,Ethanethioamide,2723949
+U226,71-55-6,"Ethane, 1,1,1-trichloro-",6278
+U227,79-00-5,"Ethane, 1,1,2-trichloro-",6574
+U410,59669-26-0,"Ethanimidothioic acid, N,N′- [thiobis[(methylimino)carbonyloxy]]bis-, dimethyl ester",9601227
+U394,30558-43-1,"Ethanimidothioic acid, 2-(dimethylamino)-N-hydroxy-2-oxo-, methyl ester.",0
+U359,110-80-5,"Ethanol, 2-ethoxy-",8076
+U173,1116-54-7,"Ethanol, 2,2′-(nitrosoimino)bis-",14223
+U395,5952-26-1,"Ethanol, 2,2′-oxybis-, dicarbamate.",0
+U004,98-86-2,"Ethanone, 1-phenyl-",7410
+U043,75-01-4,"Ethene, chloro-",6338
+,,,445063
+U042,110-75-8,"Ethene, (2-chloroethoxy)-",8074
+U078,75-35-4,"Ethene, 1,1-dichloro-",6366
+U079,156-60-5,"Ethene, 1,2-dichloro-, (E)-",638186
+U210,127-18-4,"Ethene, tetrachloro-",31373
+U228,79-01-6,"Ethene, trichloro-",6575
+U112,141-78-6,Ethyl acetate (I),8857
+U113,140-88-5,Ethyl acrylate (I),8821
+U238,51-79-6,Ethyl carbamate (urethane),5641
+U117,60-29-7,Ethyl ether (I),3283
+U114,1 111-54-6,"Ethylenebisdithiocarbamic acid, salts & esters",0
+U067,106-93-4,Ethylene dibromide,7839
+U077,107-06-2,Ethylene dichloride,11
+U359,110-80-5,Ethylene glycol monoethyl ether,8076
+U115,75-21-8,"Ethylene oxide (I,T)",6354
+U116,96-45-7,Ethylenethiourea,2723650
+U076,75-34-3,Ethylidene dichloride,6365
+U118,97-63-2,Ethyl methacrylate,7343
+U119,62-50-0,Ethyl methanesulfonate,6113
+U120,206-44-0,Fluoranthene,9154
+U122,50-00-0,Formaldehyde,712
+U123,64-18-6,"Formic acid (C,T)",284
+U124,110-00-9,Furan (I),8029
+U125,98-01-1,2-Furancarboxaldehyde (I),7362
+U147,108-31-6,"2,5-Furandione",7923
+U213,109-99-9,"Furan, tetrahydro-(I)",8028
+U125,98-01-1,Furfural (I),7362
+U124,110-00-9,Furfuran (I),8029
+U206,18883-66-4,"Glucopyranose, 2-deoxy-2-(3-methyl-3-nitrosoureido)-, D-",29327
+U206,18883-66-4,"D-Glucose, 2-deoxy-2-[[(methylnitrosoamino)-carbonyl]amino]-",29327
+U126,765-34-4,Glycidylaldehyde,13002
+U163,70-25-7,"Guanidine, N-methyl-N′-nitro-N-nitroso-",135436526
+U127,118-74-1,Hexachlorobenzene,8370
+U128,87-68-3,Hexachlorobutadiene,6901
+U130,77-47-4,Hexachlorocyclopentadiene,6478
+U131,67-72-1,Hexachloroethane,6214
+U132,70-30-4,Hexachlorophene,3598
+U243,1888-71-7,Hexachloropropene,15902
+U133,302-01-2,"Hydrazine (R,T)",9321
+U086,1615-80-1,"Hydrazine, 1,2-diethyl-",15374
+U098,57-14-7,"Hydrazine, 1,1-dimethyl-",5976
+U099,540-73-8,"Hydrazine, 1,2-dimethyl-",1322
+U109,122-66-7,"Hydrazine, 1,2-diphenyl-",31222
+U134,7664-39-3,"Hydrofluoric acid (C,T)",14917
+U134,7664-39-3,"Hydrogen fluoride (C,T)",14917
+U135,6/4/7783,Hydrogen sulfide,402
+U135,6/4/7783,Hydrogen sulfide,402
+U096,80-15-9,"Hydroperoxide, 1-methyl-1-phenylethyl- (R)",6629
+U116,96-45-7,2-Imidazolidinethione,2723650
+U137,193-39-5,"Indeno[1,2,3-cd]pyrene",9131
+U190,85-44-9,"1,3-Isobenzofurandione",6811
+U140,78-83-1,"Isobutyl alcohol (I,T)",6560
+U141,120-58-1,Isosafrole,637796
+U142,143-50-0,Kepone,299
+U143,303-34-4,Lasiocarpine,5281735
+U144,301-04-2,Lead acetate,9317
+U146,1335-32-6,"Lead, bis(acetato-O)tetrahydroxytri-",16717614
+U145,7446-27-7,Lead phosphate,24009
+U146,1335-32-6,Lead subacetate,16717614
+U129,58-89-9,Lindane,727
+U163,70-25-7,MNNG,135436526
+U147,108-31-6,Maleic anhydride,7923
+U148,123-33-1,Maleic hydrazide,21954
+U149,109-77-3,Malononitrile,8010
+U150,148-82-3,Melphalan,460612
+U151,7439-97-6,Mercury,23931
+U152,126-98-7,"Methacrylonitrile (I, T)",31368
+U092,124-40-3,"Methanamine, N-methyl- (I)",674
+U029,74-83-9,"Methane, bromo-",6323
+U045,74-87-3,"Methane, chloro- (I, T)",6327
+U046,107-30-2,"Methane, chloromethoxy-",7864
+U068,74-95-3,"Methane, dibromo-",3024
+,,,445063
+U080,75-09-2,"Methane, dichloro-",6344
+U075,75-71-8,"Methane, dichlorodifluoro-",6391
+U138,74-88-4,"Methane, iodo-",6328
+U119,62-50-0,"Methanesulfonic acid, ethyl ester",6113
+U211,56-23-5,"Methane, tetrachloro-",5943
+U153,74-93-1,"Methanethiol (I, T)",878
+U225,75-25-2,"Methane, tribromo-",5558
+U044,67-66-3,"Methane, trichloro-",6212
+U121,75-69-4,"Methane, trichlorofluoro-",6389
+U036,57-74-9,"4,7-Methano-1H-indene, 1,2,4,5,6,7,8,8-octachloro-2,3,3a,4,7,7a-hexahydro-",5993
+U154,67-56-1,Methanol (I),887
+U155,91-80-5,Methapyrilene,4098
+U142,143-50-0,"1,3,4-Metheno-2H-cyclobuta[cd]pentalen-2-one, 1,1a,3,3a,4,5,5,5a,5b,6-decachlorooctahydro-",299
+U247,72-43-5,Methoxychlor,4115
+U154,67-56-1,Methyl alcohol (I),887
+U029,74-83-9,Methyl bromide,6323
+U186,504-60-9,1-Methylbutadiene (I),62204
+U045,74-87-3,"Methyl chloride (I,T)",6327
+U156,79-22-1,"Methyl chlorocarbonate (I,T)",6586
+U226,71-55-6,Methyl chloroform,6278
+U157,56-49-5,3-Methylcholanthrene,1674
+U158,101-14-4,"4,4′-Methylenebis(2-chloroaniline)",7543
+U068,74-95-3,Methylene bromide,3024
+U080,75-09-2,Methylene chloride,6344
+U159,78-93-3,"Methyl ethyl ketone (MEK) (I,T)",6569
+U160,1338-23-4,"Methyl ethyl ketone peroxide (R,T)",3672772
+U138,74-88-4,Methyl iodide,6328
+U161,108-10-1,Methyl isobutyl ketone (I),7909
+U162,80-62-6,"Methyl methacrylate (I,T)",6658
+U161,108-10-1,4-Methyl-2-pentanone (I),7909
+U164,56-04-2,Methylthiouracil,667493
+U010,50-07-7,Mitomycin C,5746
+U059,20830-81-3,"5,12-Naphthacenedione, 8-acetyl-10-[(3-amino-2,3,6-trideoxy)-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-, (8S-cis)-",30323
+U167,134-32-7,1-Naphthalenamine,8640
+U168,91-59-8,2-Naphthalenamine,7057
+U026,494-03-1,"Naphthalenamine, N,N′-bis(2-chloroethyl)-",10307
+U165,91-20-3,Naphthalene,931
+U047,91-58-7,"Naphthalene, 2-chloro-",7056
+U166,130-15-4,"1,4-Naphthalenedione",8530
+U236,72-57-1,"2,7-Naphthalenedisulfonic acid, 3,3′-[(3,3′-dimethyl[1,1′-biphenyl]-4,4′-diyl)bis(azo)bis[5-amino-4-hydroxy]-, tetrasodium salt",6296
+U279,63-25-2,"1-Naphthalenol, methylcarbamate.",6129
+U166,130-15-4,"1,4-Naphthoquinone",8530
+U167,134-32-7,alpha-Naphthylamine,8640
+U168,91-59-8,beta-Naphthylamine,7057
+U217,10102-45-1,"Nitric acid, thallium(1+) salt",24937
+U169,98-95-3,"Nitrobenzene (I,T)",7416
+U170,100-02-7,p-Nitrophenol,980
+U171,79-46-9,"2-Nitropropane (I,T)",398
+U172,924-16-3,N-Nitrosodi-n-butylamine,13542
+U173,1116-54-7,N-Nitrosodiethanolamine,14223
+U174,55-18-5,N-Nitrosodiethylamine,5921
+U176,759-73-9,N-Nitroso-N-ethylurea,12967
+U177,684-93-5,N-Nitroso-N-methylurea,12699
+U178,615-53-2,N-Nitroso-N-methylurethane,12001
+U179,100-75-4,N-Nitrosopiperidine,7526
+U180,930-55-2,N-Nitrosopyrrolidine,13591
+U181,99-55-8,5-Nitro-o-toluidine,7444
+U193,1120-71-4,"1,2-Oxathiolane, 2,2-dioxide",14264
+U058,50-18-0,"2H-1,3,2-Oxazaphosphorin-2-amine,N,N-bis(2-chloroethyl)tetrahydro-, 2-oxide",2907
+U115,75-21-8,"Oxirane (I,T)",6354
+U126,765-34-4,Oxiranecarboxyaldehyde,13002
+U041,106-89-8,"Oxirane, (chloromethyl)-",7835
+U182,123-63-7,Paraldehyde,31264
+U183,608-93-5,Pentachlorobenzene,11855
+U184,76-01-7,Pentachloroethane,6419
+U185,82-68-8,Pentachloronitrobenzene (PCNB),6720
+See F027,87-86-5,Pentachlorophenol,992
+U161,108-10-1,"Pentanol, 4-methyl-",7909
+,,,445063
+U186,504-60-9,"1,3-Pentadiene (I)",62204
+U187,62-44-2,Phenacetin,4754
+U188,108-95-2,Phenol,996
+U048,95-57-8,"Phenol, 2-chloro-",7245
+U039,59-50-7,"Phenol, 4-chloro-3-methyl-",1732
+U081,120-83-2,"Phenol, 2,4-dichloro-",8449
+U082,87-65-0,"Phenol, 2,6-dichloro-",6899
+U089,56-53-1,"Phenol, 4,4′-(1,2-diethyl-1,2-ethenediyl)bis-, (E)-",448537
+U101,105-67-9,"Phenol, 2,4-dimethyl-",7771
+U052,1319-77-3,methylphenol,0
+U132,70-30-4,"Phenol, 2,2′-methylenebis[3,4,6-trichloro-",3598
+U411,114-26-1,"Phenol, 2-(1-methylethoxy)-, methylcarbamate.",4944
+U170,100-02-7,"Phenol, 4-nitro-",980
+See F027,87-86-5,"Phenol, pentachloro-",992
+See F027,58-90-2,"Phenol, 2,3,4,6-tetrachloro-",6028
+See F027,95-95-4,"Phenol, 2,4,5-trichloro-",7271
+See F027,88-06-2,"Phenol, 2,4,6-trichloro-",6914
+U150,148-82-3,"L-Phenylalanine, 4-[bis(2-chloroethyl)amino]-",460612
+U145,7446-27-7,"Phosphoric acid, lead(2+) salt (2:3)",24009
+U087,3288-58-2,"Phosphorodithioic acid, O,O-diethyl S-methyl ester",0
+U189,1314-80-3,Phosphorus sulfide (R),0
+U190,85-44-9,Phthalic anhydride,6811
+U191,109-06-8,2-Picoline,7975
+U179,100-75-4,"Piperidine, 1-nitroso-",7526
+U192,23950-58-5,Pronamide,32154
+U194,107-10-8,"1-Propanamine (I,T)",7852
+U111,621-64-7,"1-Propanamine, N-nitroso-N-propyl-",12130
+U110,142-84-7,"1-Propanamine, N-propyl- (I)",8902
+U066,96-12-8,"Propane, 1,2-dibromo-3-chloro-",7280
+U083,78-87-5,"Propane, 1,2-dichloro-",6564
+U149,109-77-3,Propanedinitrile,8010
+U171,79-46-9,"Propane, 2-nitro- (I,T)",398
+U027,108-60-1,"Propane, 2,2′-oxybis[2-chloro-",7944
+U193,1120-71-4,"1,3-Propane sultone",14264
+See F027,93-72-1,"Propanoic acid, 2-(2,4,5-trichlorophenoxy)-",7158
+U235,126-72-7,"1-Propanol, 2,3-dibromo-, phosphate (3:1)",31356
+U140,78-83-1,"1-Propanol, 2-methyl- (I,T)",6560
+U002,67-64-1,2-Propanone (I),180
+U007,79-06-1,2-Propenamide,6579
+U084,542-75-6,"1-Propene, 1,3-dichloro-",24883
+U243,1888-71-7,"1-Propene, 1,1,2,3,3,3-hexachloro-",15902
+U009,107-13-1,2-Propenenitrile,7855
+U152,126-98-7,"2-Propenenitrile, 2-methyl- (I,T)",31368
+U008,79-10-7,2-Propenoic acid (I),6581
+U113,140-88-5,"2-Propenoic acid, ethyl ester (I)",8821
+U118,97-63-2,"2-Propenoic acid, 2-methyl-, ethyl ester",7343
+U162,80-62-6,"2-Propenoic acid, 2-methyl-, methyl ester (I,T)",6658
+U373,122-42-9,Propham.,24685
+U411,114-26-1,Propoxur.,4944
+U387,52888-80-9,Prosulfocarb.,62020
+U194,107-10-8,"n-Propylamine (I,T)",7852
+U083,78-87-5,Propylene dichloride,6564
+U148,123-33-1,"3,6-Pyridazinedione, 1,2-dihydro-",21954
+U196,110-86-1,Pyridine,1049
+U191,109-06-8,"Pyridine, 2-methyl-",7975
+U237,66-75-1,"2,4-(1H,3H)-Pyrimidinedione, 5-[bis(2-chloroethyl)amino]-",6194
+U164,56-04-2,"4(1H)-Pyrimidinone, 2,3-dihydro-6-methyl-2-thioxo-",667493
+U180,930-55-2,"Pyrrolidine, 1-nitroso-",13591
+U200,50-55-5,Reserpine,5770
+U201,108-46-3,Resorcinol,5054
+U203,94-59-7,Safrole,5144
+U204,7783-00-8,Selenious acid,1091
+U204,7783-00-8,Selenium dioxide,1091
+U205,7488-56-4,Selenium sulfide,24087
+U205,7488-56-4,"Selenium sulfide SeS2 (R,T)",24087
+U015,115-02-6,"L-Serine, diazoacetate (ester)",460129
+,,,445063
+See F027,93-72-1,"Silvex (2,4,5-TP)",7158
+U206,18883-66-4,Streptozotocin,29327
+U103,77-78-1,"Sulfuric acid, dimethyl ester",6497
+U189,1314-80-3,Sulfur phosphide (R),0
+See F027,93-76-5,"2,4,5-T",1480
+U207,95-94-3,"1,2,4,5-Tetrachlorobenzene",7270
+U208,630-20-6,"1,1,1,2-Tetrachloroethane",12418
+U209,79-34-5,"1,1,2,2-Tetrachloroethane",6591
+U210,127-18-4,Tetrachloroethylene,31373
+See F027,58-90-2,"2,3,4,6-Tetrachlorophenol",6028
+U213,109-99-9,Tetrahydrofuran (I),8028
+U214,563-68-8,Thallium(I) acetate,11247
+U215,6533-73-9,Thallium(I) carbonate,23031
+U216,7791-12-0,Thallium(I) chloride,24642
+U216,7791-12-0,thallium chloride TlCl,24642
+U217,10102-45-1,Thallium(I) nitrate,24937
+U218,62-55-5,Thioacetamide,2723949
+U410,59669-26-0,Thiodicarb.,9601227
+U153,74-93-1,"Thiomethanol (I,T)",878
+U244,137-26-8,"Thioperoxydicarbonic diamide [(H2 N)C(S)]2 S2, tetramethyl-",5455
+U409,23564-05-8,Thiophanate-methyl.,3032791
+U219,62-56-6,Thiourea,2723790
+U244,137-26-8,Thiram,5455
+U220,108-88-3,Toluene,1140
+U221,25376-45-8,Toluenediamine,7261
+U223,26471-62-5,Toluene diisocyanate,11443
+U328,95-53-4,o-Toluidine,7242
+U353,106-49-0,p-Toluidine,7813
+U222,636-21-5,o-Toluidine hydrochloride,12484
+U389,2303-17-5,Triallate.,5543
+U011,61-82-5,"1H-1,2,4-Triazol-3-amine",1639
+U226,71-55-6,"1,1,1-Trichloroethane",6278
+U227,79-00-5,"1,1,2-Trichloroethane",6574
+U228,79-01-6,Trichloroethylene,6575
+U121,75-69-4,Trichloromonofluoromethane,6389
+See F027,95-95-4,"2,4,5-Trichlorophenol",7271
+See F027,88-06-2,"2,4,6-Trichlorophenol",6914
+U404,121-44-8,Triethylamine.,8471
+U234,99-35-4,"1,3,5-Trinitrobenzene (R,T)",7434
+U182,123-63-7,"1,3,5-Trioxane, 2,4,6-trimethyl-",31264
+U235,126-72-7,"Tris(2,3-dibromopropyl) phosphate",31356
+U236,72-57-1,Trypan blue,6296
+U237,66-75-1,Uracil mustard,6194
+U176,759-73-9,"Urea, N-ethyl-N-nitroso-",12967
+U177,684-93-5,"Urea, N-methyl-N-nitroso-",12699
+U043,75-01-4,Vinyl chloride,6338
+U248,1 81-81-2,"Warfarin, & salts, when present at concentrations of 0.3% or less",0
+U239,1330-20-7,Xylene,7237
+U200,50-55-5,"Yohimban-16-carboxylic acid, 11,17-dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]-, methyl ester, (3beta,16beta,17alpha,18beta,20alpha)-",5770
+U249,1314-84-7,"Zinc phosphide Zn3 P2, when present at concentrations of 10% or less",25113606
+U001,75-07-0,Acetaldehyde (I),177
+U001,75-07-0,Ethanal (I),177
+U002,67-64-1,Acetone (I),180
+U002,67-64-1,2-Propanone (I),180
+U003,75-05-8,"Acetonitrile (I,T)",6342
+U004,98-86-2,Acetophenone,7410
+U004,98-86-2,"Ethanone, 1-phenyl-",7410
+U005,53-96-3,"Acetamide, -9H-fluoren-2-yl-",5897
+U005,53-96-3,2-Acetylaminofluorene,5897
+U006,75-36-5,"Acetyl chloride (C,R,T)",6367
+U007,79-06-1,Acrylamide,6579
+U007,79-06-1,2-Propenamide,6579
+U008,79-10-7,Acrylic acid (I),6581
+U008,79-10-7,2-Propenoic acid (I),6581
+U009,107-13-1,Acrylonitrile,7855
+U009,107-13-1,2-Propenenitrile,7855
+,,,445063
+U010,50-07-7,"Azirino[2′,3′:3,4]pyrrolo[1,2-a]indole-4,7-dione, 6-amino-8-[[(aminocarbonyl)oxy]methyl]-1,1a,2,8,8a,8b-hexahydro-8a-methoxy-5-methyl-, [1aS-(1aalpha, 8beta,8aalpha,8balpha)]-",5746
+U010,50-07-7,Mitomycin C,5746
+U011,61-82-5,Amitrole,1639
+U011,61-82-5,"1H-1,2,4-Triazol-3-amine",1639
+U012,62-53-3,"Aniline (I,T)",6115
+U012,62-53-3,"Benzenamine (I,T)",6115
+U014,492-80-8,Auramine,10298
+U014,492-80-8,"Benzenamine, 4,4′-carbonimidoylbis[N,N-dimethyl-",10298
+U015,115-02-6,Azaserine,460129
+U015,115-02-6,"L-Serine, diazoacetate (ester)",460129
+U016,225-51-4,Benz[c]acridine,9181
+U017,98-87-3,Benzal chloride,7411
+U017,98-87-3,"Benzene, (dichloromethyl)-",7411
+U018,56-55-3,Benz[a]anthracene,5954
+U019,71-43-2,"Benzene (I,T)",241
+U020,98-09-9,"Benzenesulfonic acid chloride (C,R)",7369
+U020,98-09-9,"Benzenesulfonyl chloride (C,R)",7369
+U021,92-87-5,Benzidine,7111
+U021,92-87-5,"[1,1′-Biphenyl]-4,4′-diamine",7111
+U022,50-32-8,Benzo[a]pyrene,2336
+U023,98-07-7,"Benzene, (trichloromethyl)-",7367
+U023,98-07-7,"Benzotrichloride (C,R,T)",7367
+U024,111-91-1,Dichloromethoxy ethane,8147
+U024,111-91-1,"Ethane, 1,1′-[methylenebis(oxy)]bis[2-chloro-",8147
+U025,111-44-4,Dichloroethyl ether,8115
+U025,111-44-4,"Ethane, 1,1′-oxybis[2-chloro-",8115
+U026,494-03-1,Chlornaphazin,10307
+U026,494-03-1,"Naphthalenamine, N,N′-bis(2-chloroethyl)-",10307
+U027,108-60-1,Dichloroisopropyl ether,7944
+U027,108-60-1,"Propane, 2,2′-oxybis[2-chloro-",7944
+U028,117-81-7,"1,2-Benzenedicarboxylic acid, bis(2-ethylhexyl) ester",8343
+U028,117-81-7,Diethylhexyl phthalate,8343
+U029,74-83-9,"Methane, bromo-",6323
+U029,74-83-9,Methyl bromide,6323
+U030,101-55-3,"Benzene, 1-bromo-4-phenoxy-",7565
+U030,101-55-3,4-Bromophenyl phenyl ether,7565
+U031,71-36-3,1-Butanol (I),263
+U031,71-36-3,n-Butyl alcohol (I),263
+U032,13765-19-0,Calcium chromate,26264
+U032,13765-19-0,"Chromic acid H2 CrO4, calcium salt",26264
+U033,353-50-4,Carbonic difluoride,9623
+U033,353-50-4,"Carbon oxyfluoride (R,T)",9623
+U034,75-87-6,"Acetaldehyde, trichloro-",6407
+U034,75-87-6,Chloral,6407
+U035,305-03-3,"Benzenebutanoic acid, 4-[bis(2-chloroethyl)amino]-",2708
+U035,305-03-3,Chlorambucil,2708
+U036,57-74-9,"Chlordane, alpha & gamma isomers",5993
+U036,57-74-9,"4,7-Methano-1H-indene, 1,2,4,5,6,7,8,8-octachloro-2,3,3a,4,7,7a-hexahydro-",5993
+U037,108-90-7,"Benzene, chloro-",7964
+U037,108-90-7,Chlorobenzene,7964
+U038,510-15-6,"Benzeneacetic acid, 4-chloro-alpha-(4-chlorophenyl)-alpha-hydroxy-, ethyl ester",10522
+U038,510-15-6,Chlorobenzilate,10522
+U039,59-50-7,p-Chloro-m-cresol,1732
+U039,59-50-7,"Phenol, 4-chloro-3-methyl-",1732
+U041,106-89-8,Epichlorohydrin,7835
+U041,106-89-8,"Oxirane, (chloromethyl)-",7835
+U042,110-75-8,2-Chloroethyl vinyl ether,8074
+U042,110-75-8,"Ethene, (2-chloroethoxy)-",8074
+U043,75-01-4,"Ethene, chloro-",6338
+U043,75-01-4,Vinyl chloride,6338
+U044,67-66-3,Chloroform,6212
+U044,67-66-3,"Methane, trichloro-",6212
+U045,74-87-3,"Methane, chloro- (I,T)",6327
+U045,74-87-3,"Methyl chloride (I,T)",6327
+U046,107-30-2,Chloromethyl methyl ether,7864
+U046,107-30-2,"Methane, chloromethoxy-",7864
+U047,91-58-7,beta-Chloronaphthalene,7056
+U047,91-58-7,"Naphthalene, 2-chloro-",7056
+U048,95-57-8,o-Chlorophenol,7245
+U048,95-57-8,"Phenol, 2-chloro-",7245
+U049,3165-93-3,"Benzenamine, 4-chloro-2-methyl-, hydrochloride",18487
+,,,445063
+U049,3165-93-3,"4-Chloro-o-toluidine, hydrochloride",18487
+U050,218-01-9,Chrysene,9171
+U051,,Creosote,445063
+U052,1319-77-3,cresol,0
+U052,1319-77-3,methylphenol,0
+U053,4170-30-3,2-Butenal,447466
+U053,4170-30-3,Crotonaldehyde,447466
+U055,98-82-8,"Benzene, (1-methylethyl)-(I)",7406
+U055,98-82-8,Cumene (I),7406
+U056,110-82-7,"Benzene, hexahydro-(I)",8078
+U056,110-82-7,Cyclohexane (I),8078
+U057,108-94-1,Cyclohexanone (I),7967
+U058,50-18-0,Cyclophosphamide,2907
+U058,50-18-0,"2H-1,3,2-Oxazaphosphorin-2-amine, N,N-bis(2-chloroethyl)tetrahydro-, 2-oxide",2907
+U059,20830-81-3,Daunomycin,30323
+U059,20830-81-3,"5,12-Naphthacenedione, 8-acetyl-10-[(3-amino-2,3,6-trideoxy)-alpha-L-lyxo-hexopyranosyl)oxy]-7,8,9,10-tetrahydro-6,8,11-trihydroxy-1-methoxy-, (8S-cis)-",30323
+U060,72-54-8,"Benzene, 1,1′-(2,2-dichloroethylidene)bis[4-chloro-",6294
+U060,72-54-8,DDD,6294
+U061,50-29-3,"Benzene, 1,1′-(2,2,2-trichloroethylidene)bis[4-chloro-",3036
+U061,50-29-3,DDT,3036
+U062,2303-16-4,"Carbamothioic acid, bis(1-methylethyl)-, S-(2,3-di chloro-2-propenyl) ester",5284376
+U062,2303-16-4,Diallate,5284376
+U063,53-70-3,"Dibenz[a,h]anthracene",5889
+U064,189-55-9,Benzo[rst]pentaphene,9106
+U064,189-55-9,"Dibenzo[a,i]pyrene",9106
+U066,96-12-8,"1,2-Dibromo-3-chloropropane",7280
+U066,96-12-8,"Propane, 1,2-dibromo-3-chloro-",7280
+U067,106-93-4,"Ethane, 1,2-dibromo-",7839
+U067,106-93-4,Ethylene dibromide,7839
+U068,74-95-3,"Methane, dibromo-",3024
+U068,74-95-3,Methylene bromide,3024
+U069,84-74-2,"1,2-Benzenedicarboxylic acid, dibutyl ester",3026
+U069,84-74-2,Dibutyl phthalate,3026
+U070,95-50-1,"Benzene, 1,2-dichloro-",7239
+U070,95-50-1,o-Dichlorobenzene,7239
+U071,541-73-1,"Benzene, 1,3-dichloro-",10943
+U071,541-73-1,m-Dichlorobenzene,10943
+U072,106-46-7,"Benzene, 1,4-dichloro-",4685
+U072,106-46-7,p-Dichlorobenzene,4685
+U073,91-94-1,"[1,1′-Biphenyl]-4,4′-diamine, 3,3′-dichloro-",7070
+U073,91-94-1,"3,3′-Dichlorobenzidine",7070
+U074,764-41-0,"2-Butene, 1,4-dichloro-(I,T)",642197
+U074,764-41-0,"1,4-Dichloro-2-butene (I,T)",642197
+U075,75-71-8,Dichlorodifluoromethane,6391
+U075,75-71-8,"Methane, dichlorodifluoro-",6391
+U076,75-34-3,"Ethane, 1,1-dichloro-",6365
+U076,75-34-3,Ethylidene dichloride,6365
+U077,107-06-2,"Ethane, 1,2-dichloro-",11
+U077,107-06-2,Ethylene dichloride,11
+U078,75-35-4,"1,1-Dichloroethylene",6366
+U078,75-35-4,"Ethene, 1,1-dichloro-",6366
+U079,156-60-5,"1,2-Dichloroethylene",638186
+U079,156-60-5,"Ethene, 1,2-dichloro-, (E)-",638186
+U080,75-09-2,"Methane, dichloro-",6344
+U080,75-09-2,Methylene chloride,6344
+U081,120-83-2,"2,4-Dichlorophenol",8449
+U081,120-83-2,"Phenol, 2,4-dichloro-",8449
+U082,87-65-0,"2,6-Dichlorophenol",6899
+U082,87-65-0,"Phenol, 2,6-dichloro-",6899
+U083,78-87-5,"Propane, 1,2-dichloro-",6564
+U083,78-87-5,Propylene dichloride,6564
+U084,542-75-6,"1,3-Dichloropropene",24883
+U084,542-75-6,"1-Propene, 1,3-dichloro-",24883
+U085,1464-53-5,"2,2′-Bioxirane",11254
+U085,1464-53-5,"1,2:3,4-Diepoxybutane (I,T)",11254
+U086,1615-80-1,"N,N′-Diethylhydrazine",15374
+U086,1615-80-1,"Hydrazine, 1,2-diethyl-",15374
+U087,3288-58-2,"O,O-Diethyl S-methyl dithiophosphate",0
+U087,3288-58-2,"Phosphorodithioic acid, O,O-diethyl S-methyl ester",0
+U088,84-66-2,"1,2-Benzenedicarboxylic acid, diethyl ester",6781
+U088,84-66-2,Diethyl phthalate,6781
+,,,445063
+U089,56-53-1,Diethylstilbesterol,448537
+U089,56-53-1,"Phenol, 4,4′-(1,2-diethyl-1,2-ethenediyl)bis-, (E)-",448537
+U090,94-58-6,"1,3-Benzodioxole, 5-propyl-",7197
+U090,94-58-6,Dihydrosafrole,7197
+U091,119-90-4,"[1,1′-Biphenyl]-4,4′-diamine, 3,3′-dimethoxy-",8411
+U091,119-90-4,"3,3′-Dimethoxybenzidine",8411
+U092,124-40-3,Dimethylamine (I),674
+U092,124-40-3,"Methanamine, -methyl-(I)",674
+U093,60-11-7,"Benzenamine, N,N-dimethyl-4-(phenylazo)-",6053
+U093,60-11-7,p-Dimethylaminoazobenzene,6053
+U094,57-97-6,"Benz[a]anthracene, 7,12-dimethyl-",6001
+U094,57-97-6,"7,12-Dimethylbenz[a]anthracene",6001
+U095,119-93-7,"[1,1′-Biphenyl]-4,4′-diamine, 3,3′-dimethyl-",8413
+U095,119-93-7,"3,3′-Dimethylbenzidine",8413
+U096,80-15-9,"alpha,alpha-Dimethylbenzylhydroperoxide (R)",6629
+U096,80-15-9,"Hydroperoxide, 1-methyl-1-phenylethyl-(R)",6629
+U097,79-44-7,"Carbamic chloride, dimethyl-",6598
+U097,79-44-7,Dimethylcarbamoyl chloride,6598
+U098,57-14-7,"1,1-Dimethylhydrazine",5976
+U098,57-14-7,"Hydrazine, 1,1-dimethyl-",5976
+U099,540-73-8,"1,2-Dimethylhydrazine",1322
+U099,540-73-8,"Hydrazine, 1,2-dimethyl-",1322
+U101,105-67-9,"2,4-Dimethylphenol",7771
+U101,105-67-9,"Phenol, 2,4-dimethyl-",7771
+U102,131-11-3,"1,2-Benzenedicarboxylic acid, dimethyl ester",8554
+U102,131-11-3,Dimethyl phthalate,8554
+U103,77-78-1,Dimethyl sulfate,6497
+U103,77-78-1,"Sulfuric acid, dimethyl ester",6497
+U105,121-14-2,"Benzene, 1-methyl-2,4-dinitro-",8461
+U105,121-14-2,"2,4-Dinitrotoluene",8461
+U106,606-20-2,"Benzene, 2-methyl-1,3-dinitro-",11813
+U106,606-20-2,"2,6-Dinitrotoluene",11813
+U107,117-84-0,"1,2-Benzenedicarboxylic acid, dioctyl ester",8346
+U107,117-84-0,Di-n-octyl phthalate,8346
+U108,123-91-1,"1,4-Diethyleneoxide",31275
+U108,123-91-1,"1,4-Dioxane",31275
+U109,122-66-7,"1,2-Diphenylhydrazine",31222
+U109,122-66-7,"Hydrazine, 1,2-diphenyl-",31222
+U110,142-84-7,Dipropylamine (I),8902
+U110,142-84-7,"1-Propanamine, N-propyl-(I)",8902
+U111,621-64-7,Di-n-propylnitrosamine,12130
+U111,621-64-7,"1-Propanamine, N-nitroso-N-propyl-",12130
+U112,141-78-6,Acetic acid ethyl ester (I),8857
+U112,141-78-6,Ethyl acetate (I),8857
+U113,140-88-5,Ethyl acrylate (I),8821
+U113,140-88-5,"2-Propenoic acid, ethyl ester (I)",8821
+U114,1111-54-6,"Carbamodithioic acid, 1,2-ethanediylbis-, salts & esters",0
+U114,1111-54-6,"Ethylenebisdithiocarbamic acid, salts & esters",0
+U115,75-21-8,"Ethylene oxide (I,T)",6354
+U115,75-21-8,"Oxirane (I,T)",6354
+U116,96-45-7,Ethylenethiourea,2723650
+U116,96-45-7,2-Imidazolidinethione,2723650
+U117,60-29-7,"Ethane, 1,1′-oxybis-(I)",3283
+U117,60-29-7,Ethyl ether (I),3283
+U118,97-63-2,Ethyl methacrylate,7343
+U118,97-63-2,"2-Propenoic acid, 2-methyl-, ethyl ester",7343
+U119,62-50-0,Ethyl methanesulfonate,6113
+U119,62-50-0,"Methanesulfonic acid, ethyl ester",6113
+U120,206-44-0,Fluoranthene,9154
+U121,75-69-4,"Methane, trichlorofluoro-",6389
+U121,75-69-4,Trichloromonofluoromethane,6389
+U122,50-00-0,Formaldehyde,712
+U123,64-18-6,"Formic acid (C,T)",284
+U124,110-00-9,Furan (I),8029
+U124,110-00-9,Furfuran (I),8029
+U125,98-01-1,2-Furancarboxaldehyde (I),7362
+U125,98-01-1,Furfural (I),7362
+U126,765-34-4,Glycidylaldehyde,13002
+U126,765-34-4,Oxiranecarboxyaldehyde,13002
+U127,118-74-1,"Benzene, hexachloro-",8370
+U127,118-74-1,Hexachlorobenzene,8370
+U128,87-68-3,"1,3-Butadiene, 1,1,2,3,4,4-hexachloro-",6901
+,,,445063
+U128,87-68-3,Hexachlorobutadiene,6901
+U129,58-89-9,"Cyclohexane, 1,2,3,4,5,6-hexachloro-, (1alpha,2alpha,3beta,4alpha,5alpha,6beta)-",727
+U129,58-89-9,Lindane,727
+U130,77-47-4,"1,3-Cyclopentadiene, 1,2,3,4,5,5-hexachloro-",6478
+U130,77-47-4,Hexachlorocyclopentadiene,6478
+U131,67-72-1,"Ethane, hexachloro-",6214
+U131,67-72-1,Hexachloroethane,6214
+U132,70-30-4,Hexachlorophene,3598
+U132,70-30-4,"Phenol, 2,2′-methylenebis[3,4,6-trichloro-",3598
+U133,302-01-2,"Hydrazine (R,T)",9321
+U134,7664-39-3,"Hydrofluoric acid (C,T)",14917
+U134,7664-39-3,"Hydrogen fluoride (C,T)",14917
+U135,6/4/7783,Hydrogen sulfide,402
+U135,6/4/7783,Hydrogen sulfide H2S,402
+U136,75-60-5,"Arsinic acid, dimethyl-",2513
+U136,75-60-5,Cacodylic acid,2513
+U137,193-39-5,"Indeno[1,2,3-cd]pyrene",9131
+U138,74-88-4,"Methane, iodo-",6328
+U138,74-88-4,Methyl iodide,6328
+U140,78-83-1,"Isobutyl alcohol (I,T)",6560
+U140,78-83-1,"1-Propanol, 2-methyl- (I,T)",6560
+U141,120-58-1,"1,3-Benzodioxole, 5-(1-propenyl)-",637796
+U141,120-58-1,Isosafrole,637796
+U142,143-50-0,Kepone,299
+U142,143-50-0,"1,3,4-Metheno-2H-cyclobuta[cd]pentalen-2-one, 1,1a,3,3a,4,5,5,5a,5b,6-decachlorooctahydro-",299
+U143,303-34-4,"2-Butenoic acid, 2-methyl-, 7-[[2,3-dihydroxy-2-(1-methoxyethyl)-3-methyl-1-oxobutoxy]methyl]-2,3,5,7a-tetrahydro-1H-pyrrolizin-1-yl ester, [1S-[1alpha(Z),7(2S*,3R*),7aalpha]]-",5281735
+U143,303-34-4,Lasiocarpine,5281735
+U144,301-04-2,"Acetic acid, lead(2+) salt",9317
+U144,301-04-2,Lead acetate,9317
+U145,7446-27-7,Lead phosphate,24009
+U145,7446-27-7,"Phosphoric acid, lead(2+) salt (2:3)",24009
+U146,1335-32-6,"Lead, bis(acetato-O)tetrahydroxytri-",16717614
+U146,1335-32-6,Lead subacetate,16717614
+U147,108-31-6,"2,5-Furandione",7923
+U147,108-31-6,Maleic anhydride,7923
+U148,123-33-1,Maleic hydrazide,21954
+U148,123-33-1,"3,6-Pyridazinedione, 1,2-dihydro-",21954
+U149,109-77-3,Malononitrile,8010
+U149,109-77-3,Propanedinitrile,8010
+U150,148-82-3,Melphalan,460612
+U150,148-82-3,"L-Phenylalanine, 4-[bis(2-chloroethyl)amino]-",460612
+U151,7439-97-6,Mercury,23931
+U152,126-98-7,"Methacrylonitrile (I,T)",31368
+U152,126-98-7,"2-Propenenitrile, 2-methyl- (I,T)",31368
+U153,74-93-1,"Methanethiol (I,T)",878
+U153,74-93-1,"Thiomethanol (I,T)",878
+U154,67-56-1,Methanol (I),887
+U154,67-56-1,Methyl alcohol (I),887
+U155,91-80-5,"1,2-Ethanediamine, N,N-dimethyl-N′-2-pyridinyl-N′-(2-thienylmethyl)-",4098
+U155,91-80-5,Methapyrilene,4098
+U156,79-22-1,"Carbonochloridic acid, methyl ester (I,T)",6586
+U156,79-22-1,"Methyl chlorocarbonate (I,T)",6586
+U157,56-49-5,"Benz[j]aceanthrylene, 1,2-dihydro-3-methyl-",1674
+U157,56-49-5,3-Methylcholanthrene,1674
+U158,101-14-4,"Benzenamine, 4,4′-methylenebis[2-chloro-",7543
+U158,101-14-4,"4,4′-Methylenebis(2-chloroaniline)",7543
+U159,78-93-3,"2-Butanone (I,T)",6569
+U159,78-93-3,"Methyl ethyl ketone (MEK) (I,T)",6569
+U160,1338-23-4,"2-Butanone, peroxide (R,T)",3672772
+U160,1338-23-4,"Methyl ethyl ketone peroxide (R,T)",3672772
+U161,108-10-1,Methyl isobutyl ketone (I),7909
+U161,108-10-1,4-Methyl-2-pentanone (I),7909
+U161,108-10-1,"Pentanol, 4-methyl-",7909
+U162,80-62-6,"Methyl methacrylate (I,T)",6658
+U162,80-62-6,"2-Propenoic acid, 2-methyl-, methyl ester (I,T)",6658
+U163,70-25-7,"Guanidine, -methyl-N'-nitro-N-nitroso-",135436526
+U163,70-25-7,MNNG,135436526
+U164,56-04-2,Methylthiouracil,667493
+U164,56-04-2,"4(1H)-Pyrimidinone, 2,3-dihydro-6-methyl-2-thioxo-",667493
+U165,91-20-3,Naphthalene,931
+U166,130-15-4,"1,4-Naphthalenedione",8530
+,,,445063
+U166,130-15-4,"1,4-Naphthoquinone",8530
+U167,134-32-7,1-Naphthalenamine,8640
+U167,134-32-7,alpha-Naphthylamine,8640
+U168,91-59-8,2-Naphthalenamine,7057
+U168,91-59-8,beta-Naphthylamine,7057
+U169,98-95-3,"Benzene, nitro-",7416
+U169,98-95-3,"Nitrobenzene (I,T)",7416
+U170,100-02-7,p-Nitrophenol,980
+U170,100-02-7,"Phenol, 4-nitro-",980
+U171,79-46-9,"2-Nitropropane (I,T)",398
+U171,79-46-9,"Propane, 2-nitro- (I,T)",398
+U172,924-16-3,"1-Butanamine, N-butyl-N-nitroso-",13542
+U172,924-16-3,N-Nitrosodi-n-butylamine,13542
+U173,1116-54-7,"Ethanol, 2,2′-(nitrosoimino)bis-",14223
+U173,1116-54-7,N-Nitrosodiethanolamine,14223
+U174,55-18-5,"Ethanamine, -ethyl-N-nitroso-",5921
+U174,55-18-5,N-Nitrosodiethylamine,5921
+U176,759-73-9,N-Nitroso-N-ethylurea,12967
+U176,759-73-9,"Urea, N-ethyl-N-nitroso-",12967
+U177,684-93-5,N-Nitroso-N-methylurea,12699
+U177,684-93-5,"Urea, N-methyl-N-nitroso-",12699
+U178,615-53-2,"Carbamic acid, methylnitroso-, ethyl ester",12001
+U178,615-53-2,N-Nitroso-N-methylurethane,12001
+U179,100-75-4,N-Nitrosopiperidine,7526
+U179,100-75-4,"Piperidine, 1-nitroso-",7526
+U180,930-55-2,N-Nitrosopyrrolidine,13591
+U180,930-55-2,"Pyrrolidine, 1-nitroso-",13591
+U181,99-55-8,"Benzenamine, 2-methyl-5-nitro-",7444
+U181,99-55-8,5-Nitro-o-toluidine,7444
+U182,123-63-7,"1,3,5-Trioxane, 2,4,6-trimethyl-",31264
+U182,123-63-7,Paraldehyde,31264
+U183,608-93-5,"Benzene, pentachloro-",11855
+U183,608-93-5,Pentachlorobenzene,11855
+U184,76-01-7,"Ethane, pentachloro-",6419
+U184,76-01-7,Pentachloroethane,6419
+U185,82-68-8,"Benzene, pentachloronitro-",6720
+U185,82-68-8,Pentachloronitrobenzene (PCNB),6720
+U186,504-60-9,1-Methylbutadiene (I),62204
+U186,504-60-9,"1,3-Pentadiene (I)",62204
+U187,62-44-2,"Acetamide, -(4-ethoxyphenyl)-",4754
+U187,62-44-2,Phenacetin,4754
+U188,108-95-2,Phenol,996
+U189,1314-80-3,Phosphorus sulfide (R),0
+U189,1314-80-3,Sulfur phosphide (R),0
+U190,85-44-9,"1,3-Isobenzofurandione",6811
+U190,85-44-9,Phthalic anhydride,6811
+U191,109-06-8,2-Picoline,7975
+U191,109-06-8,"Pyridine, 2-methyl-",7975
+U192,23950-58-5,"Benzamide, 3,5-dichloro-N-(1,1-dimethyl-2-propynyl)-",32154
+U192,23950-58-5,Pronamide,32154
+U193,1120-71-4,"1,2-Oxathiolane, 2,2-dioxide",14264
+U193,1120-71-4,"1,3-Propane sultone",14264
+U194,107-10-8,"1-Propanamine (I,T)",7852
+U194,107-10-8,"n-Propylamine (I,T)",7852
+U196,110-86-1,Pyridine,1049
+U197,106-51-4,p-Benzoquinone,4650
+U197,106-51-4,"2,5-Cyclohexadiene-1,4-dione",4650
+U200,50-55-5,Reserpine,5770
+U200,50-55-5,"Yohimban-16-carboxylic acid, 11,17-dimethoxy-18-[(3,4,5-trimethoxybenzoyl)oxy]-, methyl ester,(3beta,16beta,17alpha,18beta,20alpha)-",5770
+U201,108-46-3,"1,3-Benzenediol",5054
+U201,108-46-3,Resorcinol,5054
+U203,94-59-7,"1,3-Benzodioxole, 5-(2-propenyl)-",5144
+U203,94-59-7,Safrole,5144
+U204,7783-00-8,Selenious acid,1091
+U204,7783-00-8,Selenium dioxide,1091
+U205,7488-56-4,Selenium sulfide,24087
+U205,7488-56-4,"Selenium sulfide SeS2 (R,T)",24087
+U206,18883-66-4,"Glucopyranose, 2-deoxy-2-(3-methyl-3-nitrosoureido)-, D-",29327
+U206,18883-66-4,"D-Glucose, 2-deoxy-2-[[(methylnitrosoamino)-carbonyl]amino]-",29327
+U206,18883-66-4,Streptozotocin,29327
+U207,95-94-3,"Benzene, 1,2,4,5-tetrachloro-",7270
+,,,445063
+U207,95-94-3,"1,2,4,5-Tetrachlorobenzene",7270
+U208,630-20-6,"Ethane, 1,1,1,2-tetrachloro-",12418
+U208,630-20-6,"1,1,1,2-Tetrachloroethane",12418
+U209,79-34-5,"Ethane, 1,1,2,2-tetrachloro-",6591
+U209,79-34-5,"1,1,2,2-Tetrachloroethane",6591
+U210,127-18-4,"Ethene, tetrachloro-",31373
+U210,127-18-4,Tetrachloroethylene,31373
+U211,56-23-5,Carbon tetrachloride,5943
+U211,56-23-5,"Methane, tetrachloro-",5943
+U213,109-99-9,"Furan, tetrahydro-(I)",8028
+U213,109-99-9,Tetrahydrofuran (I),8028
+U214,563-68-8,"Acetic acid, thallium(1+) salt",11247
+U214,563-68-8,Thallium(I) acetate,11247
+U215,6533-73-9,"Carbonic acid, dithallium(1+) salt",23031
+U215,6533-73-9,Thallium(I) carbonate,23031
+U216,7791-12-0,Thallium(I) chloride,24642
+U216,7791-12-0,Thallium chloride TlCl,24642
+U217,10102-45-1,"Nitric acid, thallium(1+) salt",24937
+U217,10102-45-1,Thallium(I) nitrate,24937
+U218,62-55-5,Ethanethioamide,2723949
+U218,62-55-5,Thioacetamide,2723949
+U219,62-56-6,Thiourea,2723790
+U220,108-88-3,"Benzene, methyl-",1140
+U220,108-88-3,Toluene,1140
+U221,25376-45-8,"Benzenediamine, ar-methyl-",7252
+U221,25376-45-8,Toluenediamine,7261
+U222,636-21-5,"Benzenamine, 2-methyl-, hydrochloride",12484
+U222,636-21-5,o-Toluidine hydrochloride,12484
+U223,26471-62-5,"Benzene, 1,3-diisocyanatomethyl- (R,T)",0
+U223,26471-62-5,"Toluene diisocyanate (R,T)",0
+U225,75-25-2,Bromoform,5558
+U225,75-25-2,"Methane, tribromo-",5558
+U226,71-55-6,"Ethane, 1,1,1-trichloro-",6278
+U226,71-55-6,Methyl chloroform,6278
+U226,71-55-6,"1,1,1-Trichloroethane",6278
+U227,79-00-5,"Ethane, 1,1,2-trichloro-",6574
+U227,79-00-5,"1,1,2-Trichloroethane",6574
+U228,79-01-6,"Ethene, trichloro-",6575
+U228,79-01-6,Trichloroethylene,6575
+U234,99-35-4,"Benzene, 1,3,5-trinitro-",7434
+U234,99-35-4,"1,3,5-Trinitrobenzene (R,T)",7434
+U235,126-72-7,"1-Propanol, 2,3-dibromo-, phosphate (3:1)",31356
+U235,126-72-7,"Tris(2,3-dibromopropyl) phosphate",31356
+U236,72-57-1,"2,7-Naphthalenedisulfonic acid, 3,3′-[(3,3′-dimethyl[1,1′-biphenyl]-4,4′-diyl)bis(azo)bis[5-amino-4-hydroxy]-, tetrasodium salt",6296
+U236,72-57-1,Trypan blue,6296
+U237,66-75-1,"2,4-(1H,3H)-Pyrimidinedione, 5-[bis(2-chloroethyl)amino]-",6194
+U237,66-75-1,Uracil mustard,6194
+U238,51-79-6,"Carbamic acid, ethyl ester",5641
+U238,51-79-6,Ethyl carbamate (urethane),5641
+U239,1330-20-7,"Benzene, dimethyl- (I,T)",0
+U239,1330-20-7,Xylene,7237
+U240,1 94-75-7,"Acetic acid, (2,4-dichlorophenoxy)-, salts & esters",0
+U240,1 94-75-7,"2,4-D, salts & esters",0
+U243,1888-71-7,Hexachloropropene,15902
+U243,1888-71-7,"1-Propene, 1,1,2,3,3,3-hexachloro-",15902
+U244,137-26-8,"Thioperoxydicarbonic diamide [(H2N)C(S)]2 S2, tetramethyl-",5455
+U244,137-26-8,Thiram,5455
+U246,506-68-3,Cyanogen bromide (CN)Br,10476
+U247,72-43-5,"Benzene, 1,1′-(2,2,2-trichloroethylidene)bis[4- methoxy-",4115
+U247,72-43-5,Methoxychlor,4115
+U248,1 81-81-2,"2H-1-Benzopyran-2-one, 4-hydroxy-3-(3-oxo-1-phenyl-butyl)-, & salts, when present at concentrations of 0.3% or less",0
+U248,1 81-81-2,"Warfarin, & salts, when present at concentrations of 0.3% or less",0
+U249,1314-84-7,"Zinc phosphide Zn3 P2, when present at concentrations of 10% or less",25113606
+U271,17804-35-2,Benomyl,28780
+U271,17804-35-2,"Carbamic acid, [1-[(butylamino)carbonyl]-1H-benzimidazol-2-yl]-, methyl ester",28780
+U278,22781-23-3,Bendiocarb,2314
+U278,22781-23-3,"1,3-Benzodioxol-4-ol, 2,2-dimethyl-, methyl carbamate",2314
+U279,63-25-2,Carbaryl,6129
+U279,63-25-2,"1-Naphthalenol, methylcarbamate",6129
+U280,101-27-9,Barban,7551
+,,,445063
+U280,101-27-9,"Carbamic acid, (3-chlorophenyl)-, 4-chloro-2-butynyl ester",7551
+U328,95-53-4,"Benzenamine, 2-methyl-",7242
+U328,95-53-4,o-Toluidine,7242
+U353,106-49-0,"Benzenamine, 4-methyl-",7813
+U353,106-49-0,p-Toluidine,7813
+U359,110-80-5,"Ethanol, 2-ethoxy-",8076
+U359,110-80-5,Ethylene glycol monoethyl ether,8076
+U364,22961-82-6,Bendiocarb phenol,62765
+U364,22961-82-6,"1,3-Benzodioxol-4-ol, 2,2-dimethyl-,",62765
+U367,1563-38-8,"7-Benzofuranol, 2,3-dihydro-2,2-dimethyl-",15278
+U367,1563-38-8,Carbofuran phenol,15278
+U372,10605-21-7,"Carbamic acid, 1H-benzimidazol-2-yl, methyl ester",25429
+U372,10605-21-7,Carbendazim,25429
+U373,122-42-9,"Carbamic acid, phenyl-, 1-methylethyl ester",24685
+U373,122-42-9,Propham,24685
+U387,52888-80-9,"Carbamothioic acid, dipropyl-, S-(phenylmethyl) ester",62020
+U387,52888-80-9,Prosulfocarb,62020
+U389,2303-17-5,"Carbamothioic acid, bis(1-methylethyl)-, S-(2,3,3-trichloro-2-propenyl) ester",5543
+U389,2303-17-5,Triallate,5543
+U394,30558-43-1,A2213,0
+U394,30558-43-1,"Ethanimidothioic acid, 2-(dimethylamino)-N-hydroxy-2-oxo-, methyl ester",0
+U395,5952-26-1,"Diethylene glycol, dicarbamate",0
+U395,5952-26-1,"Ethanol, 2,2′-oxybis-, dicarbamate",0
+U404,121-44-8,"Ethanamine, N,N-diethyl-",8471
+U404,121-44-8,Triethylamine,8471
+U409,23564-05-8,"Carbamic acid, [1,2-phenylenebis (iminocarbonothioyl)]bis-, dimethyl ester",3032791
+U409,23564-05-8,Thiophanate-methyl,3032791
+U410,59669-26-0,"Ethanimidothioic acid, N,N′-[thiobis[(methylimino)carbonyloxy]]bis-, dimethyl ester",9601227
+U410,59669-26-0,Thiodicarb,9601227
+U411,114-26-1,"Phenol, 2-(1-methylethoxy)-, methylcarbamate",4944
+U411,114-26-1,Propoxur,4944
+See F027,93-76-5,"Acetic acid, (2,4,5-trichlorophenoxy)-",1480
+See F027,87-86-5,Pentachlorophenol,992
+See F027,87-86-5,"Phenol, pentachloro-",992
+See F027,58-90-2,"Phenol, 2,3,4,6-tetrachloro-",6028
+See F027,95-95-4,"Phenol, 2,4,5-trichloro-",7271
+See F027,88-06-2,"Phenol, 2,4,6-trichloro-",6914
+See F027,93-72-1,"Propanoic acid, 2-(2,4,5-trichlorophenoxy)-",7158
+See F027,93-72-1,"Silvex (2,4,5-TP)",7158
+See F027,93-76-5,"2,4,5-T",1480
+See F027,58-90-2,"2,3,4,6-Tetrachlorophenol",6028
+See F027,95-95-4,"2,4,5-Trichlorophenol",7271
+See F027,88-06-2,"2,4,6-Trichlorophenol",6914

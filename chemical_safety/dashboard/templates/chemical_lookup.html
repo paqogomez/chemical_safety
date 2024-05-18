@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Lookup</title>
+    <link rel="stylesheet" href="../static/css/style.css"> <!-- Ensure the path is correct based on your structure -->
+</head>
+<body>
+    <header class="page-header">
+        <a href="/" title="Go to Home Page"> <!-- Link to home page -->
+            <img src="static/img/chembio_horiz.png" alt="Chembio Horizontal Logo" class="logo">
+        </a>
+    </header>
+    
+    <h1>{{result.full_name}}</h1>
+    <div>
+        <h2>{{result.signal_word}}</h2>
+        <div id="pictograms">
+            {% if result.pictograms %}
+                {% for pictogram in result.pictograms %}
+                    <img src="{{ url_for('static', filename='img/' + pictogram + '.svg') }}" alt="{{ pictogram }}" title="{{ pictogram }}">
+                {% endfor %}
+            {% endif %}
+        </div>
+        {% if result.WSU_particularly_hazardous %}
+            <div class="phs">
+                {% if result.WSU_No_GHS %}
+                    <p>This compound has no safety information available</p>
+                {% else %}
+                    <p>This is a Particularly Hazardous Substance</p>
+                    {% if result.WSU_highly_acute_toxin %}<li>Highly acute toxin</li>{% endif %}
+                    {% if result.WSU_reproductive_toxin %}<li>Reproductive toxin</li>{% endif %}
+                    {% if result.WSU_carcinogen %}<li>Carcinogen</li>{% endif %}
+                {% endif %}
+            </div>
+        {% endif %}
+        <div id="hazard-statements">
+            <br>
+            {% if result.hazard_statements %}
+                {% for hs in result.hazard_statements %}
+                    <li>{{hs}}</li>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+
+    {% if result.p_statements %}
+        <br>
+        <hr>
+        <h2>Precautionary Statements</h2>
+        <div>
+            {% for ps in result.p_statements %}
+                <div>{{ps}}</div>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if result.hazardous_waste %}
+        <br>
+        <hr>
+        <h2>Hazardous Waste</h2>
+        <div>{{result.hazardous_waste_info}}</div>
+    {% endif %}
+
+    {% if result.disposal_info %}
+        <br>
+        <hr>
+        <h2>Disposal</h2>
+        {% for i in result.disposal_info %}
+            <div>{{i}}</div>
+        {% endfor %}
+    {% endif %}
+
+    {% if result.flammability_class or result.peroxide_class %}
+        <br>
+        <hr>
+        <h2>Additional Hazards</h2>
+        {% if result.flammability_class %}
+            <div>Flammability class {{result.flammability_class}}: {{result.flammability_class_info}}</div>
+        {% endif %}
+        {% if result.peroxide_class %}
+            <div>Class {{result.peroxide_class}} Peroxide Former: {{result.peroxide_class_info}}</div>
+        {% endif %}
+        <br>
+    {% endif %}
+    
+
+    
+
+    <div>
+        <hr>
+        <br>
+        <a href="/chemical_lookup">New Search</a>
+    </div>
+</body>
+</html>

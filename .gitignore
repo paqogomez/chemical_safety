@@ -1,0 +1,5 @@
+chemical_safety/chemical/data/
+wsu_inventory/
+development_scratch/
+chemical_safety/chemical/__pycache__/
+chemical_safety/dashboard/__pycache__/

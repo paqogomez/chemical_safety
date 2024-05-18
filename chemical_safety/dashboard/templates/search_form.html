@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page_title }} - Lookup</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <header class="page-header">
+        <a href="/" title="Go to Home Page"> <!-- Link to home page -->
+            <img src="static/img/chembio_horiz.png" alt="Chembio Horizontal Logo" class="logo">
+        </a>
+    </header>
+    <h1>{{ page_title }}</h1>
+    <form action="/lookup" method="post" style="text-align: center; margin: auto; width: 50%;">
+        <br>
+        <input type="hidden" name="lookup_type" value="{{ lookup_type }}">
+        <div>
+            {% if lookup_type == "Chemical"%}
+                Enter chemical name or CAS number.
+            {% elif lookup_type == "multi chemical"%}
+                Enter a comma-separated list of chemical names and/or CAS numbers.
+            {% elif lookup_type == "experiment"%}
+                Enter an experiment name to search for.
+            {% elif lookup_type == "course"%}
+                Enter course code (e.g. CHEM 3000).
+            {% elif lookup_type == "secondary"%}
+                Enter a comma-separated list of chemical names and/or CAS numbers.
+            {% endif %}
+        </div>
+        <input type="text" id="search_term" name="search_term" required>
+        <button type="submit">Search</button>
+        
+    </form>
+</body>
+</html>

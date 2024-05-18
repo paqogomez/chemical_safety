@@ -1,0 +1,488 @@
+code,CAS,name,cid
+P023,107-20-0,"Acetaldehyde, chloro-",33
+P002,591-08-2,"Acetamide, N-(aminothioxomethyl)-",2723593
+P057,640-19-7,"Acetamide, 2-fluoro-",12542
+P058,62-74-8,"Acetic acid, fluoro-, sodium salt",16212360
+P002,591-08-2,1-Acetyl-2-thiourea,2723593
+P003,107-02-8,Acrolein,7847
+P070,116-06-3,Aldicarb,9570071
+P203,1646-88-4,Aldicarb sulfone.,9570093
+P004,309-00-2,Aldrin,12310947
+P005,107-18-6,Allyl alcohol,7858
+P006,20859-73-8,"Aluminum phosphide (R,T)",30332
+P007,2763-96-4,5-(Aminomethyl)-3-isoxazolol,4266
+P008,504-24-5,4-Aminopyridine,1727
+P009,131-74-8,Ammonium picrate (R),8577
+P119,7803-55-6,Ammonium vanadate,516859
+P099,506-61-6,"Argentate(1-), bis(cyano-C)-, potassium",10474
+P010,7778-39-4,Arsenic acid H3 AsO4,234
+P012,1327-53-3,Arsenic oxide As2 O3,0
+P011,1303-28-2,Arsenic oxide As2 O5,14771
+P011,1303-28-2,Arsenic pentoxide,14771
+P012,1327-53-3,Arsenic trioxide,14888
+P038,692-42-2,"Arsine, diethyl-",0
+P036,696-28-6,"Arsonous dichloride, phenyl-",0
+P054,151-56-4,Aziridine,9033
+P067,75-55-8,"Aziridine, 2-methyl-",6377
+P013,542-62-1,Bariumcyanid,0
+P024,106-47-8,"Benzenamine, 4-chloro-",7812
+P077,100-01-6,"Benzenamine, 4-nitro-",7475
+P028,100-44-7,"Benzene, (chloromethyl)-",7503
+P042,51-43-4,"1,2-Benzenediol, 4-[1-hydroxy-2-(methylamino)ethyl]-, (R)-",5816
+P046,122-09-8,"Benzeneethanamine, alpha,alpha-dimethyl-",4771
+P014,108-98-5,Benzenethiol,7969
+P127,1563-66-2,"7-Benzofuranol, 2,3-dihydro-2,2-dimethyl-, methylcarbamate.",2566
+P188,57-64-7,"Benzoic acid, 2-hydroxy-, compd. with (3aS-cis)-1,2,3,3a,8,8a-hexahydro-1,3a,8-trimethylpyrrolo[2,3-b]indol-5-yl methylcarbamate ester (1:1).",657348
+P001,1 81-81-2,"2H-1-Benzopyran-2-one, 4-hydroxy-3-(3-oxo-1-phenylbutyl)-, & salts, when present at concentrations greater than 0.3%",0
+P028,100-44-7,Benzyl chloride,7503
+P015,7440-41-7,Beryllium powder,5460467
+P017,598-31-2,Bromoacetone,11715
+P018,357-57-3,Brucine,442021
+P045,39196-18-4,"2-Butanone, 3,3-dimethyl-1-(methylthio)-,",38235
+,,O-[(methylamino)carbonyl] oxime,445063
+P021,592-01-8,Calcium cyanide,6093192
+P021,592-01-8,Calcium cyanide Ca(CN)2,6093192
+P189,55285-14-8,"Carbamic acid, [(dibutylamino)- thio]methyl-, 2,3-dihydro-2,2-dimethyl- 7-benzofuranyl ester.",41384
+P191,644-64-4,"Carbamic acid, dimethyl-, 1-[(dimethyl-amino)carbonyl]- 5-methyl-1H- pyrazol-3-yl ester.",12572
+P192,119-38-0,"Carbamic acid, dimethyl-, 3-methyl-1- (1-methylethyl)-1H- pyrazol-5-yl ester.",8393
+P190,1129-41-5,"Carbamic acid, methyl-, 3-methylphenyl ester.",14322
+P127,1563-66-2,Carbofuran.,2566
+P022,75-15-0,Carbon disulfide,6348
+P095,75-44-5,Carbonic dichloride,6371
+P189,55285-14-8,Carbosulfan.,41384
+P023,107-20-0,Chloroacetaldehyde,33
+P024,106-47-8,p-Chloroaniline,7812
+P026,5344-82-1,1-(o-Chlorophenyl)thiourea,737139
+P027,542-76-7,3-Chloropropionitrile,10963
+P029,544-92-3,Copper cyanide,11009
+P029,544-92-3,Copper cyanide Cu(CN),11009
+P202,64-00-6,m-Cumenyl methylcarbamate.,6143
+P030,,"Cyanides (soluble cyanide salts), not otherwise specified",445063
+P031,460-19-5,Cyanogen,9999
+P033,506-77-4,Cyanogen chloride,10477
+P033,506-77-4,Cyanogen chloride (CN)Cl,10477
+P034,131-89-5,"2-Cyclohexyl-4,6-dinitrophenol",8540
+P016,542-88-1,Dichloromethyl ether,10967
+P036,696-28-6,Dichlorophenylarsine,0
+P037,60-57-1,Dieldrin,969491
+P038,692-42-2,Diethylarsine,0
+P041,311-45-5,Diethyl-p-nitrophenyl phosphate,9395
+P040,297-97-2,"O,O-Diethyl O-pyrazinyl phosphorothioate",9272
+P043,55-91-4,Diisopropylfluorophosphate (DFP),5936
+P004,309-00-2,"1,4,5,8-Dimethanonaphthalene, 1,2,3,4,10,10-hexa- chloro-1,4,4a,5,8,8a,-hexahydro-, (1alpha,4alpha,4abeta,5alpha,8alpha,8abeta)-",12310947
+P060,465-73-6,"1,4,5,8-Dimethanonaphthalene, 1,2,3,4,10,10-hexa- chloro-1,4,4a,5,8,8a-hexahydro-, (1alpha,4alpha,4abeta,5beta,8beta,8abeta)-",12310946
+P037,60-57-1,"2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-, (1aalpha,2beta,2aalpha,3beta,6beta,6aalpha,7beta, 7aalpha)-",969491
+P051,1 72-20-8,"2,7:3,6-Dimethanonaphth [2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-, (1aalpha,2beta,2abeta,3alpha,6alpha,6abeta,7beta, 7aalpha)-, & metabolites",0
+P044,60-51-5,Dimethoate,3082
+P046,122-09-8,"alpha,alpha-Dimethylphenethylamine",4771
+P191,644-64-4,Dimetilan.,12572
+P047,1 534-52-1,"4,6-Dinitro-o-cresol, & salts",0
+P048,51-28-5,"2,4-Dinitrophenol",1493
+P020,88-85-7,Dinoseb,6950
+P085,152-16-9,"Diphosphoramide, octamethyl-",9037
+P111,107-49-3,"Diphosphoric acid, tetraethyl ester",7873
+P039,298-04-4,Disulfoton,3118
+P049,541-53-7,Dithiobiuret,2758725
+P185,26419-73-8,"1,3-Dithiolane-2-carboxaldehyde, 2,4-dimethyl-, O- [(methylamino)- carbonyl]oxime.",0
+P050,115-29-7,Endosulfan,3224
+P088,145-73-3,Endothall,3225
+P051,72-20-8,Endrin,12358480
+P051,72-20-8,"Endrin, & metabolites",12358480
+P042,51-43-4,Epinephrine,5816
+P031,460-19-5,Ethanedinitrile,9999
+P194,23135-22-0,"Ethanimidothioic acid, 2-(dimethylamino)-N-[[(methylamino) carbonyl]oxy]-2-oxo-, methyl ester.",9595287
+P066,16752-77-5,"Ethanimidothioic acid,",4109
+,,"N-[[(methylamino)carbonyl]oxy]-, methyl ester",445063
+P101,107-12-0,Ethyl cyanide,7854
+P054,151-56-4,Ethyleneimine,9033
+P097,52-85-7,Famphur,5859
+P056,7782-41-4,Fluorine,24524
+P057,640-19-7,Fluoroacetamide,12542
+P058,62-74-8,"Fluoroacetic acid, sodium salt",16212360
+P198,23422-53-9,Formetanate hydrochloride.,31899
+P197,17702-57-7,Formparanate.,0
+P065,628-86-4,"Fulminic acid, mercury(2 + ) salt (R,T)",0
+P059,76-44-8,Heptachlor,3589
+P062,757-58-4,Hexaethyl tetraphosphate,0
+P116,79-19-6,Hydrazinecarbothioamide,2723789
+P068,60-34-4,"Hydrazine, methyl-",6061
+P063,74-90-8,Hydrocyanic acid,768
+P063,74-90-8,Hydrogen cyanide,768
+P096,7803-51-2,Hydrogen phosphide,24404
+P060,465-73-6,Isodrin,12310946
+P192,119-38-0,Isolan.,8393
+P202,64-00-6,3-Isopropylphenyl N-methylcarbamate.,6143
+P007,2763-96-4,"3(2H)-Isoxazolone, 5-(aminomethyl)-",4266
+P196,15339-36-3,"Manganese, bis(dimethylcarbamodithioato-S,S′)-,",0
+P196,15339-36-3,Manganese dimethyldithiocarbamate.,0
+P092,62-38-4,"Mercury, (acetato-O)phenyl-",16682730
+P065,628-86-4,"Mercury fulminate (R,T)",0
+P082,62-75-9,"Methanamine, N-methyl-N-nitroso-",6124
+P064,624-83-9,"Methane, isocyanato-",12228
+P016,542-88-1,"Methane, oxybis[chloro-",10967
+P112,509-14-8,"Methane, tetranitro- (R)",10509
+P118,75-70-7,"Methanethiol, trichloro-",0
+P198,23422-53-9,"Methanimidamide, N,N-dimethyl-N′-[3-[[(methylamino)-carbonyl]oxy]phenyl]-, monohydrochloride.",31899
+P197,17702-57-7,"Methanimidamide, N,N-dimethyl-N′-[2-methyl-4-[[(methylamino)carbonyl]oxy]phenyl]-",0
+P050,115-29-7,"6,9-Methano-2,4,3-benzodioxathiepin, 6,7,8,9,10,10-",3224
+,,"hexachloro-1,5,5a,6,9,9a-hexahydro-, 3-oxide",445063
+P059,76-44-8,"4,7-Methano-1H-indene, 1,4,5,6,7,8,8-heptachloro-",3589
+,,"3a,4,7,7a-tetrahydro-",445063
+P199,2032-65-7,Methiocarb.,16248
+P066,16752-77-5,Methomyl,4109
+P068,60-34-4,Methyl hydrazine,6061
+P064,624-83-9,Methyl isocyanate,12228
+P069,75-86-5,2-Methyllactonitrile,6406
+P071,298-00-0,Methyl parathion,4130
+P190,1129-41-5,Metolcarb.,14322
+P128,315-8-4,Mexacarbate.,0
+P072,86-88-4,alpha-Naphthylthiourea,736366
+P073,13463-39-3,Nickel carbonyl,0
+P073,13463-39-3,"Nickel carbonyl Ni(CO)4, (T-4)-",0
+P074,557-19-7,Nickel cyanide,6093189
+P074,557-19-7,Nickel cyanide Ni(CN)2,6093189
+P075,1 54-11-5,"Nicotine, & salts (this listing does not include patches, gums and lozenges that are FDA-approved over-the-counter nicotine replacement therapies).",0
+P076,10102-43-9,Nitric oxide,145068
+P077,100-01-6,p-Nitroaniline,7475
+P078,10102-44-0,Nitrogen dioxide,3032552
+P076,10102-43-9,Nitrogen oxide NO,145068
+P078,10102-44-0,Nitrogen oxide NO2,3032552
+P081,55-63-0,Nitroglycerine (R),4510
+P082,62-75-9,N-Nitrosodimethylamine,6124
+P084,4549-40-0,N-Nitrosomethylvinylamine,20678
+P085,152-16-9,Octamethylpyrophosphoramide,9037
+P087,20816-12-0,"Osmium oxide OsO4, (T-4)-",30318
+P087,20816-12-0,Osmium tetroxide,30318
+P088,145-73-3,"7-Oxabicyclo[2.2.1]heptane-2,3-dicarboxylic acid",3225
+P194,23135-22-0,Oxamyl.,9595287
+P089,56-38-2,Parathion,991
+P034,131-89-5,"Phenol, 2-cyclohexyl-4,6-dinitro-",8540
+P048,51-28-5,"Phenol, 2,4-dinitro-",1493
+P047,1 534-52-1,"Phenol, 2-methyl-4,6-dinitro-, & salts",0
+P020,88-85-7,"Phenol, 2-(1-methylpropyl)-4,6-dinitro-",6950
+P009,131-74-8,"Phenol, 2,4,6-trinitro-, ammonium salt (R)",8577
+P128,315-18-4,"Phenol, 4-(dimethylamino)-3,5-dimethyl-, methylcarbamate (ester).",9414
+P199,2032-65-7,"Phenol, (3,5-dimethyl-4-(methylthio)-, methylcarbamate",16248
+P202,64-00-6,"Phenol, 3-(1-methylethyl)-, methyl carbamate.",6143
+P201,2631-37-0,"Phenol, 3-methyl-5-(1-methylethyl)-, methyl carbamate.",17516
+P092,62-38-4,Phenylmercury acetate,16682730
+P093,103-85-5,Phenylthiourea,676454
+P094,298-02-2,Phorate,4790
+P095,75-44-5,Phosgene,6371
+P096,7803-51-2,Phosphine,24404
+P041,311-45-5,"Phosphoric acid, diethyl 4-nitrophenyl ester",9395
+P039,298-04-4,"Phosphorodithioic acid, O,O-diethyl",3118
+,,S-[2-(ethylthio)ethyl] ester,445063
+P094,298-02-2,"Phosphorodithioic acid, O,O-diethyl",4790
+,,S-[(ethylthio)methyl] ester,445063
+P044,60-51-5,"Phosphorodithioic acid, O,O-dimethyl S-[2-(methylamino)-2-oxoethyl] ester",3082
+P043,55-91-4,"Phosphorofluoridic acid, bis(1-methylethyl) ester",5936
+P089,56-38-2,"Phosphorothioic acid, O,O-diethyl O-(4-nitrophenyl) ester",991
+P040,297-97-2,"Phosphorothioic acid, O,O-diethyl O-pyrazinyl ester",9272
+P097,52-85-7,"Phosphorothioic acid,",5859
+,,"O-[4-[(dimethylamino)sulfonyl]phenyl] O,O-dimethyl ester",445063
+P071,298-00-0,"Phosphorothioic acid, O,O,-dimethyl O-(4-nitrophenyl) ester",4130
+P204,57-47-6,Physostigmine.,5983
+P188,57-64-7,Physostigmine salicylate.,657348
+P110,78-00-2,"Plumbane, tetraethyl-",6511
+P098,151-50-8,Potassium cyanide,9032
+P098,151-50-8,Potassium cyanide K(CN),9032
+P099,506-61-6,Potassium silver cyanide,10474
+P201,2631-37-0,Promecarb,17516
+P070,116-06-3,"Propanal, 2-methyl-2-(methylthio)-,",9570071
+,,O-[(methylamino)carbonyl]oxime,445063
+P203,1646-88-4,"Propanal, 2-methyl-2-(methyl-sulfonyl)-, O-[(methylamino)carbonyl] oxime.",9570093
+P101,107-12-0,Propanenitrile,7854
+P027,542-76-7,"Propanenitrile, 3-chloro-",10963
+P069,75-86-5,"Propanenitrile, 2-hydroxy-2-methyl-",6406
+P081,55-63-0,"1,2,3-Propanetriol, trinitrate (R)",4510
+P017,598-31-2,"2-Propanone, 1-bromo-",11715
+P102,107-19-7,Propargyl alcohol,7859
+P003,107-02-8,2-Propenal,7847
+P005,107-18-6,2-Propen-1-ol,7858
+P067,75-55-8,"1,2-Propylenimine",6377
+P102,107-19-7,2-Propyn-1-ol,7859
+P008,504-24-5,4-Pyridinamine,1727
+P075,1 54-11-5,"Pyridine, 3-(1-methyl-2-pyrrolidinyl)-, (S)-, & salts (this listing does not include patches, gums and lozenges that are FDA-approved over-the-counter nicotine replacement therapies).",0
+P204,57-47-6,"Pyrrolo[2,3-b]indol-5-ol, 1,2,3,3a,8,8a-hexahydro-1,3a,8-trimethyl-,",5983
+,,"methylcarbamate (ester), (3aS-cis)-.",445063
+P114,12039-52-0,"Selenious acid, dithallium(1 + ) salt",0
+P103,630-10-4,Selenourea,6327594
+P104,506-64-9,Silver cyanide,10475
+P104,506-64-9,Silver cyanide Ag(CN),0
+P105,26628-22-8,Sodium azide,33557
+P106,143-33-9,Sodium cyanide,8929
+P106,143-33-9,Sodium cyanide Na(CN),8929
+P108,1 57-24-9,"Strychnidin-10-one, & salts",0
+P018,357-57-3,"Strychnidin-10-one, 2,3-dimethoxy-",442021
+P108,1 57-24-9,"Strychnine, & salts",0
+P115,7446-18-6,"Sulfuric acid, dithallium(1 + ) salt",24833
+P109,3689-24-5,Tetraethyldithiopyrophosphate,19395
+P110,78-00-2,Tetraethyl lead,6511
+P111,107-49-3,Tetraethyl pyrophosphate,7873
+P112,509-14-8,Tetranitromethane (R),10509
+P062,757-58-4,"Tetraphosphoric acid, hexaethyl ester",0
+P113,1314-32-5,Thallic oxide,3579754
+P113,1314-32-5,Thallium oxide Tl2 O3,3579754
+P114,12039-52-0,Thallium(I) selenite,0
+P115,7446-18-6,Thallium(I) sulfate,24833
+P109,3689-24-5,"Thiodiphosphoric acid, tetraethyl ester",19395
+P045,39196-18-4,Thiofanox,38235
+P049,541-53-7,Thioimidodicarbonic diamide [(H2 N)C(S)]2 NH,2758725
+P014,108-98-5,Thiophenol,7969
+P116,79-19-6,Thiosemicarbazide,2723789
+P026,5344-82-1,"Thiourea, (2-chlorophenyl)-",737139
+P072,86-88-4,"Thiourea, 1-naphthalenyl-",736366
+P093,103-85-5,"Thiourea, phenyl-",676454
+P185,26419-73-8,Tirpate.,0
+P123,8001-35-2,Toxaphene,5284469
+P118,75-70-7,Trichloromethanethiol,0
+P119,7803-55-6,"Vanadic acid, ammonium salt",516859
+P120,1314-62-1,Vanadium oxide V2 O5,14814
+P120,1314-62-1,Vanadium pentoxide,14814
+P084,4549-40-0,"Vinylamine, N-methyl-N-nitroso-",20678
+P001,1 81-81-2,"Warfarin, & salts, when present at concentrations greater than 0.3%",0
+P205,137-30-4,"Zinc, bis(dimethylcarbamodithioato-S,S′)-,",8722
+P121,557-21-1,Zinc cyanide,11186
+P121,557-21-1,Zinc cyanide Zn(CN)2,11186
+P122,1314-84-7,"Zinc phosphide Zn3 P2, when present at concentrations greater than 10% (R,T)",25113606
+P205,137-30-4,Ziram.,8722
+P001,1 81-81-2,"2H-1-Benzopyran-2-one, 4-hydroxy-3-(3-oxo-1-phenylbutyl)-, & salts, when present at concentrations greater than 0.3%",0
+P001,1 81-81-2,"Warfarin, & salts, when present at concentrations greater than 0.3%",0
+P002,591-08-2,"Acetamide, -(aminothioxomethyl)-",2723593
+P002,591-08-2,1-Acetyl-2-thiourea,2723593
+P003,107-02-8,Acrolein,7847
+P003,107-02-8,2-Propenal,7847
+P004,309-00-2,Aldrin,12310947
+P004,309-00-2,"1,4,5,8-Dimethanonaphthalene, 1,2,3,4,10,10-hexa-chloro-1,4,4a,5,8,8a,-hexahydro-, (1alpha,4alpha,4abeta,5alpha,8alpha,8abeta)-",12310947
+P005,107-18-6,Allyl alcohol,7858
+P005,107-18-6,2-Propen-1-ol,7858
+P006,20859-73-8,"Aluminum phosphide (R,T)",30332
+P007,2763-96-4,5-(Aminomethyl)-3-isoxazolol,4266
+P007,2763-96-4,"3(2H)-Isoxazolone, 5-(aminomethyl)-",4266
+P008,504-24-5,4-Aminopyridine,1727
+P008,504-24-5,4-Pyridinamine,1727
+P009,131-74-8,Ammonium picrate (R),8577
+P009,131-74-8,"Phenol, 2,4,6-trinitro-, ammonium salt (R)",8577
+P010,7778-39-4,Arsenic acid H3 AsO4,234
+P011,1303-28-2,Arsenic oxide As2 O5,14771
+P011,1303-28-2,Arsenic pentoxide,14771
+P012,1327-53-3,Arsenic oxide As2 O3,0
+P012,1327-53-3,Arsenic trioxide,14888
+P013,542-62-1,Bariumcyanid,0
+P014,108-98-5,Benzenethiol,7969
+P014,108-98-5,Thiophenol,7969
+P015,7440-41-7,Beryllium powder,5460467
+P016,542-88-1,Dichloromethyl ether,10967
+P016,542-88-1,"Methane, oxybis[chloro-",10967
+P017,598-31-2,Bromoacetone,11715
+P017,598-31-2,"2-Propanone, 1-bromo-",11715
+P018,357-57-3,Brucine,442021
+P018,357-57-3,"Strychnidin-10-one, 2,3-dimethoxy-",442021
+P020,88-85-7,Dinoseb,6950
+P020,88-85-7,"Phenol, 2-(1-methylpropyl)-4,6-dinitro-",6950
+P021,592-01-8,Calcium cyanide,6093192
+P021,592-01-8,Calcium cyanide Ca(CN)2,6093192
+P022,75-15-0,Carbon disulfide,6348
+P023,107-20-0,"Acetaldehyde, chloro-",33
+P023,107-20-0,Chloroacetaldehyde,33
+P024,106-47-8,"Benzenamine, 4-chloro-",7812
+P024,106-47-8,p-Chloroaniline,7812
+P026,5344-82-1,1-(o-Chlorophenyl)thiourea,737139
+P026,5344-82-1,"Thiourea, (2-chlorophenyl)-",737139
+P027,542-76-7,3-Chloropropionitrile,10963
+P027,542-76-7,"Propanenitrile, 3-chloro-",10963
+P028,100-44-7,"Benzene, (chloromethyl)-",7503
+P028,100-44-7,Benzyl chloride,7503
+P029,544-92-3,Copper cyanide,11009
+P029,544-92-3,Copper cyanide Cu(CN),11009
+P030,,"Cyanides (soluble cyanide salts), not otherwise specified",445063
+P031,460-19-5,Cyanogen,9999
+P031,460-19-5,Ethanedinitrile,9999
+P033,506-77-4,Cyanogen chloride,10477
+P033,506-77-4,Cyanogen chloride (CN)Cl,10477
+P034,131-89-5,"2-Cyclohexyl-4,6-dinitrophenol",8540
+P034,131-89-5,"Phenol, 2-cyclohexyl-4,6-dinitro-",8540
+P036,696-28-6,"Arsonous dichloride, phenyl-",0
+P036,696-28-6,Dichlorophenylarsine,0
+P037,60-57-1,Dieldrin,969491
+P037,60-57-1,"2,7:3,6-Dimethanonaphth[2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-, (1aalpha,2beta,2aalpha,3beta,6beta,6aalpha,7beta, 7aalpha)-",969491
+P038,692-42-2,"Arsine, diethyl-",0
+P038,692-42-2,Diethylarsine,0
+P039,298-04-4,Disulfoton,3118
+P039,298-04-4,"Phosphorodithioic acid, O,O-diethyl S-[2-(ethylthio)ethyl] ester",3118
+P040,297-97-2,"O,O-Diethyl O-pyrazinyl phosphorothioate",9272
+P040,297-97-2,"Phosphorothioic acid, O,O-diethyl O-pyrazinyl ester",9272
+P041,311-45-5,Diethyl-p-nitrophenyl phosphate,9395
+P041,311-45-5,"Phosphoric acid, diethyl 4-nitrophenyl ester",9395
+P042,51-43-4,"1,2-Benzenediol, 4-[1-hydroxy-2-(methylamino)ethyl]-, (R)-",5816
+P042,51-43-4,Epinephrine,5816
+P043,55-91-4,Diisopropylfluorophosphate (DFP),5936
+P043,55-91-4,"Phosphorofluoridic acid, bis(1-methylethyl) ester",5936
+P044,60-51-5,Dimethoate,3082
+P044,60-51-5,"Phosphorodithioic acid, O,O-dimethyl S-[2-(methyl amino)-2-oxoethyl] ester",3082
+P045,39196-18-4,"2-Butanone, 3,3-dimethyl-1-(methylthio)-, O-[(methylamino)carbonyl] oxime",38235
+P045,39196-18-4,Thiofanox,38235
+P046,122-09-8,"Benzeneethanamine, alpha,alpha-dimethyl-",4771
+P046,122-09-8,"alpha,alpha-Dimethylphenethylamine",4771
+P047,1 534-52-1,"4,6-Dinitro-o-cresol, & salts",0
+P047,1 534-52-1,"Phenol, 2-methyl-4,6-dinitro-, & salts",0
+P048,51-28-5,"2,4-Dinitrophenol",1493
+P048,51-28-5,"Phenol, 2,4-dinitro-",1493
+P049,541-53-7,Dithiobiuret,2758725
+P049,541-53-7,Thioimidodicarbonic diamide [(H2 N)C(S)]2 NH,2758725
+P050,115-29-7,Endosulfan,3224
+P050,115-29-7,"6,9-Methano-2,4,3-benzodioxathiepin, 6,7,8,9,10,10-hexachloro-1,5,5a,6,9,9a-hexahydro-, 3-oxide",3224
+P051,1 72-20-8,"2,7:3,6-Dimethanonaphth [2,3-b]oxirene, 3,4,5,6,9,9-hexachloro-1a,2,2a,3,6,6a,7,7a-octahydro-, (1aalpha,2beta,2abeta,3alpha,6alpha,6abeta,7beta, 7aalpha)-, & metabolites",0
+P051,72-20-8,Endrin,12358480
+P051,72-20-8,"Endrin, & metabolites",12358480
+P054,151-56-4,Aziridine,9033
+P054,151-56-4,Ethyleneimine,9033
+P056,7782-41-4,Fluorine,24524
+P057,640-19-7,"Acetamide, 2-fluoro-",12542
+P057,640-19-7,Fluoroacetamide,12542
+P058,62-74-8,"Acetic acid, fluoro-, sodium salt",16212360
+P058,62-74-8,"Fluoroacetic acid, sodium salt",16212360
+P059,76-44-8,Heptachlor,3589
+P059,76-44-8,"4,7-Methano-1H-indene, 1,4,5,6,7,8,8-heptachloro-3a,4,7,7a-tetrahydro-",3589
+P060,465-73-6,"1,4,5,8-Dimethanonaphthalene, 1,2,3,4,10,10-hexa-chloro-1,4,4a,5,8,8a-hexahydro-, (1alpha,4alpha,4abeta,5beta,8beta,8abeta)-",12310946
+P060,465-73-6,Isodrin,12310946
+P062,757-58-4,Hexaethyl tetraphosphate,0
+P062,757-58-4,"Tetraphosphoric acid, hexaethyl ester",0
+P063,74-90-8,Hydrocyanic acid,768
+P063,74-90-8,Hydrogen cyanide,768
+P064,624-83-9,"Methane, isocyanato-",12228
+P064,624-83-9,Methyl isocyanate,12228
+P065,628-86-4,"Fulminic acid, mercury(2 + ) salt (R,T)",0
+P065,628-86-4,"Mercury fulminate (R,T)",0
+P066,16752-77-5,"Ethanimidothioic acid, N-[[(methylamino)carbonyl]oxy]-, methyl ester",4109
+P066,16752-77-5,Methomyl,4109
+P067,75-55-8,"Aziridine, 2-methyl-",6377
+P067,75-55-8,"1,2-Propylenimine",6377
+P068,60-34-4,"Hydrazine, methyl-",6061
+P068,60-34-4,Methyl hydrazine,6061
+P069,75-86-5,2-Methyllactonitrile,6406
+P069,75-86-5,"Propanenitrile, 2-hydroxy-2-methyl-",6406
+P070,116-06-3,Aldicarb,9570071
+P070,116-06-3,"Propanal, 2-methyl-2-(methylthio)-, O-[(methylamino)carbonyl]oxime",9570071
+P071,298-00-0,Methyl parathion,4130
+P071,298-00-0,"Phosphorothioic acid, O,O,-dimethyl O-(4-nitrophenyl) ester",4130
+P072,86-88-4,alpha-Naphthylthiourea,736366
+P072,86-88-4,"Thiourea, 1-naphthalenyl-",736366
+P073,13463-39-3,Nickel carbonyl,0
+P073,13463-39-3,"Nickel carbonyl Ni(CO)4, (T-4)-",0
+P074,557-19-7,Nickel cyanide,6093189
+P074,557-19-7,Nickel cyanide Ni(CN)2,6093189
+P075,1 54-11-5,"Nicotine, & salts (this listing does not include patches, gums and lozenges that are FDA-approved over-the-counter nicotine replacement therapies).",0
+P075,1 54-11-5,"Pyridine, 3-(1-methyl-2-pyrrolidinyl)-, (S)-, & salts (this listing does not include patches, gums and lozenges that are FDA-approved over-the-counter nicotine replacement therapies).",0
+P076,10102-43-9,Nitric oxide,145068
+P076,10102-43-9,Nitrogen oxide NO,145068
+P077,100-01-6,"Benzenamine, 4-nitro-",7475
+P077,100-01-6,p-Nitroaniline,7475
+P078,10102-44-0,Nitrogen dioxide,3032552
+P078,10102-44-0,Nitrogen oxide NO2,3032552
+P081,55-63-0,Nitroglycerine (R),4510
+P081,55-63-0,"1,2,3-Propanetriol, trinitrate (R)",4510
+P082,62-75-9,"Methanamine, -methyl-N-nitroso-",6124
+P082,62-75-9,N-Nitrosodimethylamine,6124
+P084,4549-40-0,N-Nitrosomethylvinylamine,20678
+P084,4549-40-0,"Vinylamine, -methyl-N-nitroso-",20678
+P085,152-16-9,"Diphosphoramide, octamethyl-",9037
+P085,152-16-9,Octamethylpyrophosphoramide,9037
+P087,20816-12-0,"Osmium oxide OsO4, (T-4)-",30318
+P087,20816-12-0,Osmium tetroxide,30318
+P088,145-73-3,Endothall,3225
+P088,145-73-3,"7-Oxabicyclo[2.2.1]heptane-2,3-dicarboxylic acid",3225
+P089,56-38-2,Parathion,991
+P089,56-38-2,"Phosphorothioic acid, O,O-diethyl O-(4-nitrophenyl) ester",991
+P092,62-38-4,"Mercury, (acetato-O)phenyl-",16682730
+P092,62-38-4,Phenylmercury acetate,16682730
+P093,103-85-5,Phenylthiourea,676454
+P093,103-85-5,"Thiourea, phenyl-",676454
+P094,298-02-2,Phorate,4790
+P094,298-02-2,"Phosphorodithioic acid, O,O-diethyl S-[(ethylthio)methyl] ester",4790
+P095,75-44-5,Carbonic dichloride,6371
+P095,75-44-5,Phosgene,6371
+P096,7803-51-2,Hydrogen phosphide,24404
+P096,7803-51-2,Phosphine,24404
+P097,52-85-7,Famphur,5859
+P097,52-85-7,"Phosphorothioic acid, O-[4-[(dimethylamino)sulfonyl]phenyl] O,O-dimethyl ester",5859
+P098,151-50-8,Potassium cyanide,9032
+P098,151-50-8,Potassium cyanide K(CN),9032
+P099,506-61-6,"Argentate(1-), bis(cyano-C)-, potassium",10474
+P099,506-61-6,Potassium silver cyanide,10474
+P101,107-12-0,Ethyl cyanide,7854
+P101,107-12-0,Propanenitrile,7854
+P102,107-19-7,Propargyl alcohol,7859
+P102,107-19-7,2-Propyn-1-ol,7859
+P103,630-10-4,Selenourea,6327594
+P104,506-64-9,Silver cyanide,10475
+P104,506-64-9,Silver cyanide Ag(CN),0
+P105,26628-22-8,Sodium azide,33557
+P106,143-33-9,Sodium cyanide,8929
+P106,143-33-9,Sodium cyanide Na(CN),8929
+P108,1 157-24-9,"Strychnidin-10-one, & salts",0
+P108,1 157-24-9,"Strychnine, & salts",0
+P109,3689-24-5,Tetraethyldithiopyrophosphate,19395
+P109,3689-24-5,"Thiodiphosphoric acid, tetraethyl ester",19395
+P110,78-00-2,"Plumbane, tetraethyl-",6511
+P110,78-00-2,Tetraethyl lead,6511
+P111,107-49-3,"Diphosphoric acid, tetraethyl ester",7873
+P111,107-49-3,Tetraethyl pyrophosphate,7873
+P112,509-14-8,"Methane, tetranitro-(R)",10509
+P112,509-14-8,Tetranitromethane (R),10509
+P113,1314-32-5,Thallic oxide,3579754
+P113,1314-32-5,Thallium oxide Tl2 O3,3579754
+P114,12039-52-0,"Selenious acid, dithallium(1 + ) salt",0
+P114,12039-52-0,Tetraethyldithiopyrophosphate,19395
+P115,7446-18-6,"Thiodiphosphoric acid, tetraethyl ester",24833
+P115,7446-18-6,"Plumbane, tetraethyl-",24833
+P116,79-19-6,Tetraethyl lead,2723789
+P116,79-19-6,Thiosemicarbazide,2723789
+P118,75-70-7,"Methanethiol, trichloro-",0
+P118,75-70-7,Trichloromethanethiol,0
+P119,7803-55-6,Ammonium vanadate,516859
+P119,7803-55-6,"Vanadic acid, ammonium salt",516859
+P120,1314-62-1,Vanadium oxide V2O5,14814
+P120,1314-62-1,Vanadium pentoxide,14814
+P121,557-21-1,Zinc cyanide,11186
+P121,557-21-1,Zinc cyanide Zn(CN)2,11186
+P122,1314-84-7,"Zinc phosphide Zn3 P2, when present at concentrations greater than 10% (R,T)",25113606
+P123,8001-35-2,Toxaphene,5284469
+P127,1563-66-2,"7-Benzofuranol, 2,3-dihydro-2,2-dimethyl-, methylcarbamate.",2566
+P127,1563-66-2,Carbofuran,2566
+P128,315-8-4,Mexacarbate,9414
+P128,315-18-4,"Phenol, 4-(dimethylamino)-3,5-dimethyl-, methylcarbamate (ester)",9414
+P185,26419-73-8,"1,3-Dithiolane-2-carboxaldehyde, 2,4-dimethyl-, O-[(methylamino)-carbonyl]oxime.",0
+P185,26419-73-8,Tirpate,0
+P188,57-64-7,"Benzoic acid, 2-hydroxy-, compd. with (3aS-cis)-1,2,3,3a,8,8a-hexahydro-1,3a,8-trimethylpyrrolo[2,3-b]indol-5-yl methylcarbamate ester (1:1)",657348
+P188,57-64-7,Physostigmine salicylate,657348
+P189,55285-14-8,"Carbamic acid, [(dibutylamino)-thio]methyl-, 2,3-dihydro-2,2-dimethyl-7-benzofuranyl ester",41384
+P189,55285-14-8,Carbosulfan,41384
+P190,1129-41-5,"Carbamic acid, methyl-, 3-methylphenyl ester",14322
+P190,1129-41-5,Metolcarb,14322
+P191,644-64-4,"Carbamic acid, dimethyl-, 1-[(dimethyl-amino)carbonyl]-5-methyl-1H-pyrazol-3-yl ester",12572
+P191,644-64-4,Dimetilan,12572
+P192,119-38-0,"Carbamic acid, dimethyl-, 3-methyl-1-(1-methylethyl)-1H-pyrazol-5-yl ester",8393
+P192,119-38-0,Isolan,8393
+P194,23135-22-0,"Ethanimidthioic acid, 2-(dimethylamino)-N-[[(methylamino) carbonyl]oxy]-2-oxo-, methyl ester",9595287
+P194,23135-22-0,Oxamyl,9595287
+P196,15339-36-3,"Manganese, bis(dimethylcarbamodithioato-S,S′)-,",0
+P196,15339-36-3,Manganese dimethyldithiocarbamate,0
+P197,17702-57-7,Formparanate,0
+P197,17702-57-7,"Methanimidamide, N,N-dimethyl-N′-[2-methyl-4-[[(methylamino)carbonyl]oxy]phenyl]-",0
+P198,23422-53-9,Formetanate hydrochloride,31899
+P198,23422-53-9,"Methanimidamide, N,N-dimethyl-N′-[3-[[(methylamino)-carbonyl]oxy]phenyl]-monohydrochloride",31899
+P199,2032-65-7,Methiocarb,16248
+P199,2032-65-7,"Phenol, (3,5-dimethyl-4-(methylthio)-, methylcarbamate",16248
+P201,2631-37-0,"Phenol, 3-methyl-5-(1-methylethyl)-, methyl carbamate",17516
+P201,2631-37-0,Promecarb,17516
+P202,64-00-6,m-Cumenyl methylcarbamate,6143
+P202,64-00-6,3-Isopropylphenyl N-methylcarbamate,6143
+P202,64-00-6,"Phenol, 3-(1-methylethyl)-, methyl carbamate",6143
+P203,1646-88-4,Aldicarb sulfone,9570093
+P203,1646-88-4,"Propanal, 2-methyl-2-(methyl-sulfonyl)-, O-[(methylamino)carbonyl] oxime",9570093
+P204,57-47-6,Physostigmine,5983
+P204,57-47-6,"Pyrrolo[2,3-b]indol-5-ol, 1,2,3,3a,8,8a-hexahydro-1,3a,8-trimethyl-, methylcarbamate (ester), (3aS-cis)-",5983
+P205,137-30-4,"Zinc, bis(dimethylcarbamodithioato-S,S′)-,",8722
+P205,137-30-4,Ziram,8722

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.page-header {
+    background-color: #492365; /* Wildcat Purple */
+    padding: 20px 0;
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    height: 80px; /* Adjust the size as necessary */
+    margin: 0 10px;
+}
+
+h1 {
+    color: #492365; /* Wildcat Purple */
+    text-align: center;
+    margin: 10;
+    padding: 10;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    flex: 1; /* Makes each column take up equal space */
+}
+
+button {
+    background-color: #492365; /* Wildcat Purple */
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #734a95; /* A lighter purple for hover effect */
+}
+
+button:focus {
+    outline: none; /* Removes the outline on focus seen in some browsers */
+}
+
+.phs {
+    background-color: pink;
+}
+
+.phs p {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.phs li {
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures that borders between cells are merged */
+}
+th, td {
+    border: 1px solid black; /* Sets the border around each cell */
+    padding: 8px; /* Adds some padding inside cells for better text readability */
+    text-align: left; /* Aligns text to the left side of the cell */
+    font-size: smaller
+}
+th {
+    background-color: #f2f2f2; /* A light grey background for header cells */
+    font-weight: bold; /* Makes header text bold */
+}

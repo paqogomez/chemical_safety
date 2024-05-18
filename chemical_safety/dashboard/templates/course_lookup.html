@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment Lookup</title>
+    <link rel="stylesheet" href="../static/css/style.css"> <!-- Ensure the path is correct based on your structure -->
+</head>
+<body>
+  <header class="page-header">
+    <a href="/" title="Go to Home Page"> <!-- Link to home page -->
+        <img src="static/img/chembio_horiz.png" alt="Chembio Horizontal Logo" class="logo">
+    </a>
+  </header>
+  <h1>Course Overview — {{course_title}}</h1>
+  <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Particularly Hazardous Substance</th>
+            <th>Waste & Disposal</th>
+            <th>Additional PPE Needed</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for experiment in course_data %}
+        <tr>
+            <td>{{ experiment['name'] }}</td>
+            <td>
+              {% if experiment['PHS'] %}
+                Yes
+              {% endif %}
+            </td>
+            <td>
+              {% if experiment['disposal'] %}
+                {% for i in experiment['disposal'] %}
+                  <div>{{i}}</div>
+                {% endfor %}
+              {% endif %}
+            </td>
+            <td>
+              {% if experiment['PPE'] %}
+                Yes
+              {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+  </table>
+
+  {% for experiment in course_data %}
+    <h1>{{experiment['name']}}</h1>
+    <table>
+      <thead>
+          <tr>
+              <th>Name</th>
+              <th>Particularly Hazardous Substance</th>
+              <th>Hazardous Waste</th>
+              <th>Disposal</th>
+              <th>Additional PPE Needed</th>
+              <th>Flammability</th>
+              <th>Peroxides</th>
+              <th>Pictograms</th>
+          </tr>
+      </thead>
+      <tbody>
+          {% for c in experiment['chem_data'] %}
+          <tr>
+              <td>
+                <div><strong>{{ c.full_name }}</strong></div>
+                {% if c.name_difference %}
+                  <div>({{ c.name }})</div>
+                {% endif %}
+              </td>
+              <td>
+                {% if c.WSU_particularly_hazardous %}
+                  {% if c.WSU_No_GHS %}No safety information available{% endif %}
+                  {% if c.WSU_highly_acute_toxin %}Highly acute toxin{% endif %}
+                  {% if c.WSU_reproductive_toxin %}Reproductive toxin{% endif %}
+                  {% if c.WSU_carcinogen %}Carcinogen{% endif %}
+                {% endif %}
+              </td>
+              <td>
+                {% if c.hazardous_waste %}
+                    {{c.hazardous_waste_info}}
+                {% endif %}
+              </td>
+              <td>
+                {% if c.disposal_info %}
+                  {% for i in c.disposal_info %}
+                      <div>{{i}}</div>
+                  {% endfor %}
+                {% endif %}
+              </td>
+              <td>
+                {% if 'P262' in c.p_codes or c.WSU_particularly_hazardous %}
+                    Yes
+                {% endif %}
+              </td>
+              <td>
+                  {% if c.flammability_class %}
+                    {{c.flammability_class}}
+                  {% endif %}
+              </td>
+              <td>
+                {% if c.peroxide_class %}
+                  Class {{c.peroxide_class}}: {{c.peroxide_class_info}}
+                {% endif %}
+              </td>
+              <td>
+                {% if c.pictograms %}
+                  <div style="display: flex; flex-wrap: wrap; align-items: center;">
+                    {% for pictogram in c.pictograms %}
+                      <img src="{{ url_for('static', filename='img/' + pictogram + '.svg') }}" alt="{{ pictogram }}" title="{{ pictogram }}" width="30%" height="auto">
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </td>
+          </tr>
+          {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
+
+  <div>
+    <hr>
+    <br>
+    <a href="/course_lookup">New Search</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WSU Secondary Container Label</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container_name { font-size: 32px; font-weight: bold; margin-bottom: 20px; }
+        .pictograms { display: flex; margin-bottom: 10px;}
+        .highlight {  background-color: pink; }
+        img { max-width: 100px; max-height: 100px; margin-right: 10px; margin-top: 10px;}
+        .signal-word { font-weight: bold; font-size: 24px; }
+        .hazard-statements { list-style-type: none; padding: 0; }
+        .container {display: flex; align-items: center; flex-direction: row;}
+        .text {  font-size: 12px;  text-align: left;}
+    </style>
+</head>
+<body>
+    <div class='container_name'>{{data['container_name'] | safe}}</div>
+    <div class='signal-word'>{{data['signal_word']}}</div>
+    {% if data['pictograms'] %}
+        <div class='pictograms'>
+            {% for p in data['pictograms'] %}
+                <img src='static/img/{{p}}.svg' alt="{{p}}">
+            {% endfor %}
+        </div>
+    {% endif %}
+    {% if data['PHS'] %}
+    <div></div><span class="highlight"><strong>Particularly Hazardous Substance</strong></span></div>
+    {% endif %}
+    {% if data['hazard_statements'] %}
+        <ul class='hazard-statements'>
+            {% for hs in data['hazard_statements'] %}
+                <li>{{hs | safe}}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if data['hazwaste'] %}
+        <div><span class="highlight"><strong>Hazardous waste generated upon use.</strong></span><br> Follow disposal protocols: {{data['hazwaste']}}</div>
+    {% endif %}
+    {% if data['disposal'] %}
+        <div>
+            {% if not data['hazwaste'] %}
+                Follow disposal protocols:
+            {% endif %}
+            {{ data['disposal'] }}
+        </div>
+    {% endif %}
+
+    <div class="container">
+        <img src="static/img/logo.png" alt="Logo">
+        <div class="text">{{data['generator']}}, {{ data['date'] }}</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,42 @@
+code,name,mgL-1,cid
+D004,Arsenic,5.0,5359596
+D005,Barium,100.0,5355457
+D006,Cadmium,1.0,23973
+D007,Chromium,5.0,23976
+D008,Lead,5.0,5352425
+D009,Mercury,0.2,23931
+D010,Selenium,1.0,6326970
+D011,Silver,5.0,23954
+D012,Endrin,0.02,3048
+D013,Lindane,0.4,727
+D014,Methoxychlor,10.0,4115
+D015,toxaphene,0.5,0
+D016,"2,4-D",10.0,1486
+D017,"2,4,5-TP",1.0,7158
+D018,benzene,0.5,241
+D019,carbon tetrachloride,0.5,5943
+D020,chlordane,0.03,5993
+D021,chlorobenzene,100.0,7964
+D022,chloroform,6.0,6212
+D023,o-cresol,200.0,335
+D024,m-cresol,200.0,342
+D025,p-cresol,200.0,2879
+D026,cresol,200.0,0
+D027,"1,4-dichlorobenzene",4.5,4685
+D028,"1,2-dichloroethane",0.5,11
+D029,"1,1-dichloroethylene",0.7,6366
+D030,"2,3-dinitrotoluene",0.13,11761
+D031,heptachlor,0.008,3589
+D031,heptachlor epoxide,0.008,13930
+D032,hexachlorobenzene,0.13,8370
+D033,hexachlorobutadiene,0.5,6901
+D034,hexachloroethane,3.0,6214
+D035,methyl ethyl ketone,200.0,6569
+D036,nitrobenzene,2.0,7416
+D037,pentachlorophenol,100.0,992
+D038,pyridine,5.0,1049
+D039,tetrachloroethylene,0.7,31373
+D040,trichloroethylene,0.5,6575
+D041,"2,4,5-trichlorophenol",400.0,7271
+D042,"2,4,6-trichlorophenol",2.0,6914
+D043,vinyl chloride,0.2,6338

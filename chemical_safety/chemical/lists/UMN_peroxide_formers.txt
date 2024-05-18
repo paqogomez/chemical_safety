@@ -1,0 +1,280 @@
+﻿Name,CAS,PFC Class
+(2-Chloroethoxy)benzene,622-86-6,D
+1-(Benzyloxy)naphthalene,607-58-9,D
+"1-Allyloxy-2,3-epoxypropane",106-92-3,B
+1-Butanol,71-36-3,D
+1-Chloro-1-fluoroethylene,2317-91-1,B
+1-Ethoxynaphthalene,1-8-5328,D
+1-Octene,111-66-0,D
+1-Pentene,109-67-1,D
+1-Phenylethanol,98-85-1,B
+1-Propanol,71-23-8,D
+"1,1-Dimethoxyethane",534-15-6,D
+"1,1,2,3-Tetrachloro-1,3-butadiene",921-09-5,D
+"1,2-Bis(2-chloroethoxy)ethane",112-26-5,D
+"1,2-Dibenzyloxyethane",622-22-0,D
+"1,2-Dichloroethyl ethyl ether",623-46-1,D
+"1,2-Diethoxyethane",629-14-1,D
+"1,2-Dimethoxyethane (glyme)",110-71-4,B
+"1,2-Epoxy-3-isopropoxypropane",4016-14-2,D
+"1,2-Epoxy-3-phenoxypropane",122-60-1,D
+"1,3-Dioxane",505-22-6,D
+"1,3-Dioxolane",646-06-0,D
+"1,3,3-Trimethoxypropene",17576-35-1,D
+"1,3,5-Trioxane",110-88-3,D
+"1,4-Dibenzyloxybenzene",621-91-0,D
+"1,4-Dibutoxybenzene",104-36-9,D
+"1,4-Dioxane",123-91-1,B
+"1,4-Dioxene",543-75-9,D
+"1,4-Dioxin",290-67-5,D
+15-Crown-5 ether,33100-27-5,D
+"2-(1-Methylheptyl)-4,6-dinitrophenyl crotonate (Meptyldinocap)",131-72-6,D
+2-(2-Ethoxyethoxy)ethyl acetate,112-15-2,D
+2-Acetyl-3-methylthiophene,13679-72-6,D
+2-Bromoethyl methyl ether,6482-24-2,D
+2-Butanol,78-92-2,B
+2-Butanone,78-93-3,B
+2-Butenal,123-73-9,D
+2-Butoxyethanol,111-76-2,B
+2-Butoxyethyl acetate,112-07-2,D
+2-Chloroethoxyethene,110-75-8,D
+2-Cyanoethyl acrylate,106-71-8,C
+2-Cyclohexen-1-ol,822-67-3,B
+2-Ethoxyethanol (cellosolves),110-80-5,B
+2-Ethoxyethyl 2-benzoylbenzoate,604-63-7,D
+2-Ethoxyethyl acetate,111-15-9,B
+2-Ethylacrylaldehyde oxime,99705-27-8,D
+2-Ethylbutanal,97-96-1,D
+2-Ethylbutanol,97-95-0,D
+2-Ethylhexanal,123-05-7,D
+2-Hexanol,626-93-7,B
+2-Hexenal,6728-26-3,D
+2-Hydroxyethyl ether,111-46-6,D
+2-Isopropylacrylaldehyde oxime,NA,B
+2-Methoxyethanol,109-86-4,D
+2-Methoxyethyl acetate,110-49-6,D
+2-Methoxyethyl vinyl ether,1663-35-0,D
+2-Methyl propanol,78-83-1,D
+2-Methylpentane,107-83-5,B
+2-Methyltetrahydrofuran,96-47-9,B
+2-Octanol,123-96-6,B
+2-Pentanol,6032-29-7,B
+2-Pentanone,107-87-9,D
+2-Phenoxypropionyl chloride,122-35-0,D
+2-Phenylethanol,60-12-8,B
+2-Propanol,67-63-0,B
+"2,2-Diethoxypropane",126-84-1,D
+"2,2-Dimethoxypropane",77-76-9,D
+"2,2,5,5-Tetramethyltetrahydrofuran (TMTHF)",15045-43-9,"Not a peroxide former 
+(no hydrogens alpha to the oxygen)"
+"2,3-dihydro-1H-indene-2-carbaldehyde",37414-44-1,B
+"2,3-Dihydrofuran",1191-99-7,D
+"2,4-Dichlorophenetole",5392-86-9,D
+"2,4-Hexadienal",142-83-6,C
+"2,4,5-T isopropyl ester",93-78-7,D
+"2,5-Dimethylfuran",625-86-5,B
+"2,5-Dimethyltetrahydrofuran (DMTHF)",1003-38-9,B
+"2,5-Hexadiyn-1-ol",28255-99-4,D
+3-Bromopropyl phenyl ether,588-63-6,D
+3-Chlorophenetole,2655-83-6,D
+3-Ethoxy-1-propyne (propargylethyl ether),628-33-1,D
+3-Ethoxypropionitrile,2141-62-0,D
+3-Heptanone,106-35-4,D
+3-Isopropoxypropanenitrile,110-47-4,D
+3-Methoxy-1-butyl acetate,4435-53-4,D
+3-Methoxypropionitrile,110-67-8,D
+3-Methyl-2-methylenebutyraldehyde,4417-80-5,D
+3-Methyl-3-Hexanol,597-96-6,B
+"3,3-Diethoxypropene",3054-95-3,D
+"3,3-Dimethoxypropene",6044-68-4,D
+"3,4-Dimethoxybenzyl alcohol",93-03-8,D
+4-(pentyloxy)benzoyl chloride,36823-84-4,D
+4-Ethoxyphenyl isocyanate,32459-62-4,D
+4-Heptanol,589-55-9,B
+4-Methyl-2-pentanol,108-11-2,B
+4-Penten-1-ol,821-09-0,B
+4-Vinyl cyclohexene,100-40-3,D
+"4,5-Hexadien-2-yn-1-ol",2749-79-3,D
+5-Decyne,1942-46-7,B
+Acetal,105-57-7,B
+Acetaldehyde,75-07-0,B
+Acetophenone,98-86-2,D
+Acetyl Peroxide,110-22-5,D
+Acrolein,107-02-8,D
+Acrylic Acid,79-10-7,C
+Acrylonitrile,107-13-1,C
+Allyl ethyl ether,557-31-3,D
+Allyl phenyl ether,1746-13-0,D
+alpha-Amylcinnamaldehyde,122-40-7,D
+alpha-Phellandrene,99-83-2,B
+Amyl Acetate,628-63-7,D
+Anisole,100-66-3,D
+Barium,7440-39-3,D
+Benzaldehyde,100-52-7,D
+Benzyl alcohol,100-51-6,B
+Benzyl ethyl ether,539-30-0,D
+Benzyl methyl ether,538-86-3,D
+Benzyl n-butyl ether,588-67-0,D
+beta-Bromophenetole,589-10-6,D
+Bis(2-chloroethyl) ether,111-44-4,D
+Bis(2-cyanoethyl) ether,1656-48-0,D
+Bis(2-ethoxyethyl) adipate,109-44-4,D
+Bis(2-ethoxyethyl)ether,112-36-7,D
+Bis(2-methoxyethyl) adipate,106-00-3,D
+Bis(2-methoxyethyl) carbonate,626-84-6,D
+Bis(2-methoxyethyl) ether (Diglyme),111-96-6,B
+Bis(2-methoxyethyl) phthalate,117-82-8,D
+Bis(2-n-butoxyethyl) phthalate,117-83-9,D
+Bis(2-phenoxyethyl) ether,622-87-7,D
+Bis(4-chlorobutyl) ether,6334-96-9,D
+Bis(chloromethyl) ether,542-88-1,D
+Butadiene,106-99-0,"A, C"
+Butyl ethyl ether,628-81-9,B
+Butyraldehyde,123-72-8,D
+Celloidin,9004-70-0,A
+Chloroacetaldehyde diethylacetal,621-62-5,D
+Chloromethyl methyl ether,107-30-2,D
+Chloroprene,126-99-8,"A, C"
+Chlorotrifluorethylene,79-38-9,C
+Cinnamaldehyde,104-55-2,D
+cis-Cyclooctene,931-87-3,D
+Cumene,98-82-8,B
+Cyclohexanol,108-93-0,B
+Cyclohexanone,108-94-1,D
+Cyclohexene,110-83-8,B
+Cyclohexene Oxide,286-20-4,D
+Cyclooctene,931-88-4,D
+Cyclopentanol,96-41-3,D
+Cyclopentanone,120-92-3,D
+Cyclopentene,142-29-0,B
+Cyclopentyl methyl ether (CPME),5614-37-9,D
+Cyclopropyl methyl ether,540-47-6,D
+Cyrene,53716-82-8,D
+Decahydronaphthalene (decalin),91-17-8,B
+Di-n-propoxymethane,505-84-0,D
+"Diacetylene (1,3-butadiyne)",460-12-8,B
+Diallyl ether,557-40-4,D
+Dibenzyl ether,103-50-4,D
+Dibutyl ether,142-96-1,B
+Dicyclopentadiene,77-73-6,B
+Diethoxymethane,462-95-3,D
+Diethyl ether,60-29-7,B
+Diethyl ethoxymethylenemalonate,87-13-8,D
+Diethyl fumarate,623-91-6,D
+Diethylene glycol bis (2-chloroethyl) ether,638-56-2,D
+Diethylene glycol diacetate,628-68-2,D
+Diethylene glycol dibenzoate,120-55-8,D
+Diethylene glycol mono-n-butyl ether (DGBE),112-34-5,B
+Diethylketene,24264-08-02,D
+Dimethoxymethane,109-87-5,D
+Dimethyl ether,115-10-6,D
+Dipropargyl ether,6921-27-3,D
+Dipropyl ether,111-43-3,D
+Dipropyl ketone,123-19-3,D
+Dipropylene glycol methyl ether,13588-28-8,D
+Divinyl acetylene,821-08-9,A
+Divinyl ether,109-93-3,D
+Ethyl 3-ethoxypropionate,763-69-9,D
+Ethyl acetoacetate,141-97-9,D
+Ethyl isopropyl ether,625-54-7,D
+Ethyl propenyl ether,928-55-2,D
+Ethyl vinyl ether,109-92-2,D
+Ethylbenzene,100-41-4,D
+Furan,110-00-9,B
+Furfural,98-01-1,D
+Hexyl Glycidyl Ether,5926-90-9,D
+Isoamyl alcohol,123-51-3,B
+Isoamyl benzyl ether,122-73-6,D
+Isoamyl ether,544-01-4,D
+Isobutyl vinyl ether,109-53-5,B
+Isobutyraldehyde,78-84-2,B
+Isophorone,78-59-1,D
+Isopropyl ether,108-20-3,A
+Isopropyl propyl ether,627-08-7,D
+Isopropyl vinyl ether,926-65-8,D
+Isovaleraldehyde,590-86-3,D
+Limonene,5989-27-5,D
+m-Diethoxybenzene,2049-73-2,D
+m-Methylphenetole,621-32-9,D
+m-Nitrophenetole,621-52-3,D
+"Methoxy-1,3,5,7-cyclooctatetraene",7176-89-8,D
+Methyl acetylene,74-99-7,B
+Methyl acrylate,96-33-3,C
+Methyl cyclopentane,96-37-7,B
+Methyl isobutyl ketone,108-10-1,B
+Methyl methacrylate,80-62-6,C
+Methyl vinyl ether,107-25-5,D
+n-Amyl ether,693-65-2,D
+n-Butyl phenyl ether,1126-79-0,D
+n-Butyl vinyl ether,111-34-2,D
+n-Hexyl ether,112-58-3,D
+o-Bromophenetole,583-19-7,D
+o-Chloroanisole,766-51-8,D
+o-Diethoxybenzene,2050-46-6,D
+o-Ethoxyphenyl isocyanate,5395-71-1,D
+o-Methyl anisole,578-58-5,D
+p-Bromophenetole,588-96-5,D
+p-Chloroanisole,623-12-1,D
+p-Chlorophenetole,622-61-7,D
+p-Diethoxybenzene,122-95-2,D
+p-Ethoxyacetophenone,1676-63-7,D
+p-Iodophenetole,699-08-1,D
+Phenetole,103-73-1,D
+Phenoxyacetyl chloride,701-99-5,D
+Phenyl propyl ether,622-85-5,D
+Potassium amide,17242-52-3,A
+Potassium Metal,9/7/7440,A
+Propanal,123-38-6,D
+Sodium,7440-23-5,D
+Sodium amide,7782-92-5,A
+Sodium arachidonate,6610-25-9,D
+Sodium ethoxyacetylide,73506-39-5,D
+Styrene,100-42-5,C
+t-Butyl ether,6163-66-2,B
+t-Butyl ethyl ether,637-92-3,B
+t-Butyl methyl ether,1634-04-4,D
+Tetraethylene glycol dimethyl ether,143-24-8,D
+Tetrafluoroethylene,116-14-3,A
+Tetrahydrofuran,109-99-9,B
+Tetrahydronaphthalene,119-64-2,B
+Tetrahydropyran,142-68-7,D
+Tridecanal,10486-19-8,D
+Triethylene glycol diacetate,111-21-7,D
+Triethylene glycol dipropionate,141-34-4,D
+Vinyl acetate,108-05-4,C
+Vinyl acetylene,689-97-4,C
+Vinyl chloride (Chloroethylene),75-01-4,C
+Vinyl pyridine,100-69-6,C
+Vinylene carbonate,872-36-6,D
+Vinylidene chloride,75-35-4,"A, C"
+"1,1-Difluoroethylene",75-38-7,"C, D"
+"4,4'-Diaminodiphenyl Ether",101-80-4,A
+4-Bromophenyl Phenyl Ether,101-55-3,D
+4-Chlorophenyl Phenyl Ether,7005-72-3,D
+Acetaldehyde Oxime,107-29-9,"B, D"
+Alcohol C-12 C-16 Poly (1-6) Ethoxylate,68551-12-2,D
+Aldicarb Oxime,1646-75-9,B
+Bis(2-chloro-1-methylethyl)ether,108-60-1,"B, D"
+Bisphenol A Diglycidyl Ether,1675-54-3,D
+Butyl Methyl Ether,628-28-4,D
+Chloromethyl Ethyl Ether,3188-13-4,D
+o-Cresyl Glycidyl Ether,26447-14-3,"B, D"
+Cyclohexanone Oxime,100-64-1,D
+Diallyl Phthalate,131-17-9,D
+Diethylene Glycol Dibutyl Ether,112-73-2,"B,D"
+Diethylene Glycol Monoethyl Ether,111-90-0,"B,D"
+Diethylene Glycol Monomethyl Ether,111-77-3,"B,D"
+Diethylene Glycol N-hexyl Ether,112-59-4,"B,D"
+Diglycidyl Ether,7/5/2238,D
+Di-n-octyl Ether,629-82-3,D
+Dioxolane,646-06-0,B
+Ethyl Acetate,141-78-6,D
+Ethyl Methyl Ether,540-67-0,D
+Ethyl Propyl Ether,628-32-0,D
+Ethylene,74-85-1,D
+Ethylene Glycol Dibutyl Ether,112-48-1,D
+Ethylene Glycol Isopropyl Ether,109-59-1,D
+Ethylene Glycol Phenyl Ether,122-99-6,D
+Ethylene Glycol Propyl Ether,2807-30-9,D
+"Ethylene, Refrigerated Liquid (Cryogenic Liquid)",74-85-1,"B, D"
+"2,3,6,7,10,11-Hexabutoxytriphenylene",70351-85-8,D

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Label Printing</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <style>
+      body {padding: 20px; font-family: Arial, sans-serif; }
+      div {margin-bottom: 20px;}
+      fieldset {margin-bottom: 20px;}
+    </style>
+</head>
+<body>
+  <header class="page-header">
+    <a href="/" title="Go to Home Page"> <!-- Link to home page -->
+        <img src="static/img/chembio_horiz.png" alt="Chembio Horizontal Logo" class="logo">
+    </a>
+  </header>
+  <h1>Secondary Container Label Builder</h1>
+  
+  <form action="{{ url_for('generate_label') }}" method="post">
+      <input type="hidden" name="chemical_cids" value="{{ result|map(attribute='cid')|join(',') }}">
+      
+      <div>
+          <label for="container_name">Container Name:</label>
+          <input type="text" id="container_name" name="container_name" required>
+      </div>
+      <div>
+          <label for="generator_name">Generator's Name:</label>
+          <input type="text" id="generator_name" name="generator_name" required>
+      </div>
+
+      {% for chemical in result %}
+        <fieldset>
+            <h3>{{ chemical.full_name }}</h3>
+            <div class='pictograms'>
+                <h4>Pictograms:</h4>
+                {% for pictogram in chemical.pictograms %}
+                <label>
+                    <input type="checkbox" name="pictograms_{{ chemical.cid }}" value="{{ pictogram }}">
+                    <img src="{{ url_for('static', filename='img/' + pictogram + '.svg') }}" alt="{{ pictogram }}">
+                </label>
+                {% endfor %}
+            </div>
+            
+            <div class='hazard-statements'>
+                <h4>Hazard Statements:</h4>
+                {% for statement in chemical.hazard_statements %}
+                <label>
+                    <input type="checkbox" name="hazard_statements_{{ chemical.cid }}" value="{{ statement }}">
+                    {{ statement }}
+                </label><br>
+                {% endfor %}
+            </div>
+            {% for di in chemical.disposal_info %}
+          <input type="hidden" name="disposal[]" value="{{ di }}">
+          <div>{{ di }}</div>
+        {% endfor %}
+        {% if chemical.hazardous_waste %}
+            <input type="hidden" name="hazwaste[]" value="{{ chemical.hazardous_waste_info }}">
+            <div>{{chemical.hazardous_waste_info}}</div>
+        {% endif %}
+        {% if chemical.WSU_particularly_hazardous %}
+            <input type="hidden" name="PHS[]" value="True">
+        {% endif %}
+          </fieldset>
+        
+      {% endfor %}
+      
+      <fieldset>
+        <h3>Signal Word</h3>
+        <label>
+            <input type="radio" name="signal_word" value="Danger" required>
+            Danger
+        </label>
+        <label>
+            <input type="radio" name="signal_word" value="Warning">
+            Warning
+        </label>
+        <label>
+            <input type="radio" name="signal_word" value="None">
+            None
+        </label>
+    </fieldset>
+      <button type="submit">Generate</button>
+    </form>
+</body>
+</html>
