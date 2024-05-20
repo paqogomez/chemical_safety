@@ -27,7 +27,12 @@
         </div>
     {% endif %}
     {% if data['PHS'] %}
-    <div></div><span class="highlight"><strong>Particularly Hazardous Substance</strong></span></div>
+    <div class = 'highlight'>
+            <strong>Particularly Hazardous Substance</strong>
+            {% for phs_trigger in data['PHS_types'] %}
+                <br>- {{phs_trigger}}
+            {% endfor %}
+    </div>
     {% endif %}
     {% if data['hazard_statements'] %}
         <ul class='hazard-statements'>
@@ -36,7 +41,7 @@
             {% endfor %}
         </ul>
     {% endif %}
-    {% if data['hazwaste'] %}
+    <!-- {% if data['hazwaste'] %}
         <div><span class="highlight"><strong>Hazardous waste generated upon use.</strong></span><br> Follow disposal protocols: {{data['hazwaste']}}</div>
     {% endif %}
     {% if data['disposal'] %}
@@ -46,7 +51,7 @@
             {% endif %}
             {{ data['disposal'] }}
         </div>
-    {% endif %}
+    {% endif %} -->
 
     <div class="container">
         <img src="static/img/logo.png" alt="Logo">

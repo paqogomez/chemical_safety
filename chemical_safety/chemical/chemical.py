@@ -47,10 +47,10 @@ class chemical:
         self._full_json = self._get_pubchem_data(self.cid)
         self.full_name = self._full_json["Record"]["RecordTitle"]
         self.name =  self.full_name if self.name is None else self.name
-        
+
         self.name_difference = self._parse_name_difference()
 
-        self.dp_molecule = self._parse_molecular_info()
+        self.dp_molecule, self.SMILES = self._parse_molecular_info()
 
         self.signal_word , self.pictograms, self.hazard_statements, self.hazard_codes, self.p_statements, self.p_codes = self._parse_GHS()
 
@@ -64,7 +64,7 @@ class chemical:
 
         self.disposal_info = self._parse_disposal_info()
 
-    def _get_cid(self,compound_name):
+    def _get_cid(self,compound_name, recursive=True):
         try:
             compound_name = str(compound_name).lower()
         except:
@@ -92,6 +92,7 @@ class chemical:
 
         # If the compound is not in the CSV or the date is too old, make the API call
         encoded_compound_name = urllib.parse.quote(compound_name)
+        print(encoded_compound_name)
         search_url = f'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/{encoded_compound_name}/cids/JSON'
         response = requests.get(search_url)
 
@@ -102,6 +103,29 @@ class chemical:
                 writer = csv.writer(csvfile)
                 writer.writerow([compound_name, '', cid, datetime.now().strftime('%Y-%m-%d')])
             return cid
+        elif recursive:
+            # initial lookup failed. need to get a little fuzzy with the autocomplete API
+            autocomplete_url = f'https://pubchem.ncbi.nlm.nih.gov/rest/autocomplete/Compound/{encoded_compound_name}/json'
+            response = requests.get(autocomplete_url)
+
+            if response.status_code == 200:
+                data = response.json()
+                suggestions = data['dictionary_terms']['compound']
+                suggestion = sorted(suggestions, key=lambda x: lev.distance(compound_name, x))[0]
+                print(f'No results for "{compound_name}". Trying "{suggestion}"')
+
+                try:
+                    cid = self._get_cid(suggestion)
+                except:
+                    cid = None
+                if cid:
+                    with open(csv_path, mode='a', newline='', encoding='utf-8') as csvfile:
+                        writer = csv.writer(csvfile)
+                        writer.writerow([suggestion, '', cid, datetime.now().strftime('%Y-%m-%d')])
+                    return cid
+            else:
+                response.raise_for_status()
+
         else:
             response.raise_for_status()
         
@@ -152,10 +176,21 @@ class chemical:
                 for i in MolecFormula['Information']:
                     mf_string = i['Value']['StringWithMarkup'][0]['String']
                     mf_string = mf_string.replace('.','')
+                    mf_string = mf_string.replace('[','(')
+                    mf_string = mf_string.replace(']',')')
                     if len(mf_string) > 0:
                         molec = molecule(mf_string)
                         break
-        return molec
+
+            CDs = next((item for item in Identifiers['Section'] if item['TOCHeading'] == 'Computed Descriptors'), None)
+            if CDs:
+                SMILES_entry = next((item for item in CDs['Section'] if item['TOCHeading'] == 'Canonical SMILES'), None)
+                if SMILES_entry: 
+                    for i in SMILES_entry['Information']:
+                        SMILES_string = i['Value']['StringWithMarkup'][0]['String']
+                        if len(SMILES_string) > 0:
+                            break
+        return molec, SMILES_string
 
     def _parse_GHS(self):
         """
@@ -173,7 +208,7 @@ class chemical:
                 GHS = next((item for item in HazardID['Section'] if item['TOCHeading'] == 'GHS Classification'), None)       
         
         if GHS is None:
-            return "Danger" , [], ['No GHS Record Available'], ['GHS_404'], [], []
+            return "Danger" , [], ['Warning: No GHS Record Available'], ['GHS_404'], [], []
 
 
         reference_options = []
@@ -558,7 +593,6 @@ class chemical:
             particularly_hazardous = True
 
         if 'GHS_404' in self.hazard_codes:
-            particularly_hazardous = True
             WSU_No_GHS = True
             info_dict['info'] = 'No GHS Information Available'
         else:
@@ -727,40 +761,43 @@ class chemical:
         
 
 if __name__ == "__main__":
+    from molecule import molecule
+
     chem = chemical('bromine')
     print('')
     print(chem.full_name)
-    if chem.name_difference:
-        print(chem.name)
+    print(chem.SMILES)
+    # if chem.name_difference:
+    #     print(chem.name)
     
-    if(chem.dp_molecule):
-        print(chem.dp_molecule.formula)
+    # if(chem.dp_molecule):
+    #     print(chem.dp_molecule.formula)
 
-    for hs in chem.hazard_statements:
-        print(hs)
+    # for hs in chem.hazard_statements:
+    #     print(hs)
     
-    if chem.WSU_particularly_hazardous:
-        print('')
-        print("PARTICULARLY HAZARDOUS SUBSTANCE")
-        print("Carcinogen:",chem.WSU_carcinogen)
-        print("Reproductive toxin:",chem.WSU_reproductive_toxin)
-        print("Acute toxin:",chem.WSU_highly_acute_toxin, f'{chem.LD50_oral}/50 oral, {chem.LD50_dermal}/200 dermal, {chem.LC50}/200 inhalation')
+    # if chem.WSU_particularly_hazardous:
+    #     print('')
+    #     print("PARTICULARLY HAZARDOUS SUBSTANCE")
+    #     print("Carcinogen:",chem.WSU_carcinogen)
+    #     print("Reproductive toxin:",chem.WSU_reproductive_toxin)
+    #     print("Acute toxin:",chem.WSU_highly_acute_toxin, f'{chem.LD50_oral}/50 oral, {chem.LD50_dermal}/200 dermal, {chem.LC50}/200 inhalation')
         
-        for k in chem.WSU_PHC_info.keys():
-            print(k,chem.WSU_PHC_info[k])
+    #     for k in chem.WSU_PHC_info.keys():
+    #         print(k,chem.WSU_PHC_info[k])
 
-    if chem.hazardous_waste:
-        print('')
-        print("HAZARDOUS WASTE")
-        print(chem.hazardous_waste_info)
+    # if chem.hazardous_waste:
+    #     print('')
+    #     print("HAZARDOUS WASTE")
+    #     print(chem.hazardous_waste_info)
     
-    if chem.p_statements:
-        print('')
-        for p in chem.p_statements:
-            print(p)
+    # if chem.p_statements:
+    #     print('')
+    #     for p in chem.p_statements:
+    #         print(p)
     
-    print('')
-    print('Flam class', chem.flammability_class)
-    print('perox',chem.peroxide_class)
+    # print('')
+    # print('Flam class', chem.flammability_class)
+    # print('perox',chem.peroxide_class)
 
     

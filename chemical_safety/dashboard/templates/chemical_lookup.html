@@ -25,15 +25,14 @@
         </div>
         {% if result.WSU_particularly_hazardous %}
             <div class="phs">
-                {% if result.WSU_No_GHS %}
-                    <p>This compound has no safety information available</p>
-                {% else %}
-                    <p>This is a Particularly Hazardous Substance</p>
-                    {% if result.WSU_highly_acute_toxin %}<li>Highly acute toxin</li>{% endif %}
-                    {% if result.WSU_reproductive_toxin %}<li>Reproductive toxin</li>{% endif %}
-                    {% if result.WSU_carcinogen %}<li>Carcinogen</li>{% endif %}
-                {% endif %}
+                <p>This is a Particularly Hazardous Substance</p>
+                {% if result.WSU_highly_acute_toxin %}<li>Highly acute toxin</li>{% endif %}
+                {% if result.WSU_reproductive_toxin %}<li>Reproductive toxin</li>{% endif %}
+                {% if result.WSU_carcinogen %}<li>Carcinogen</li>{% endif %}
             </div>
+        {% endif %}
+        {% if result.WSU_No_GHS %}
+            <div class="phs"><p>This compound has no safety information available</p></div>
         {% endif %}
         <div id="hazard-statements">
             <br>

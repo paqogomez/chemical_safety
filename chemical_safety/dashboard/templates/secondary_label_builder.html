@@ -63,7 +63,11 @@
         {% endif %}
         {% if chemical.WSU_particularly_hazardous %}
             <input type="hidden" name="PHS[]" value="True">
+            {% if chemical.WSU_highly_acute_toxin %}<li><input type="hidden" name="phs_type[]" value="Highly acute toxin"></li>{% endif %}
+            {% if chemical.WSU_reproductive_toxin %}<li><input type="hidden" name="phs_type[]" value="Reproductive toxin"></li>{% endif %}
+            {% if chemical.WSU_carcinogen %}<li><input type="hidden" name="phs_type[]" value="Carcinogen"></li>{% endif %}
         {% endif %}
+        
           </fieldset>
         
       {% endfor %}

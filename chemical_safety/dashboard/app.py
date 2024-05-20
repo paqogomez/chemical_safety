@@ -60,7 +60,7 @@ def create_app():
                 return render_template('chemical_lookup.html', lookup_type=lookup_type, result=result)
             elif lookup_type == 'multi chemical':
                 result = [chemical(c) for c in search_term.split(', ')]
-                return render_template('experiment_lookup.html', lookup_type=lookup_type, result=result, experiment_name = "Custom Chemical List")
+                return render_template('multi_chemical_lookup.html', lookup_type=lookup_type, result=result, experiment_name = "Custom Chemical List")
             elif lookup_type == 'experiment':
                 chemlist,experiment_name = get_experiment_chem_list(search_term)
                 result = [chemical(c) for c in chemlist]
@@ -86,6 +86,7 @@ def create_app():
         disposal_info_list = list(set(request.form.getlist('disposal[]')))
         haz_waste_list = request.form.getlist('hazwaste[]')
         PHS_list = request.form.getlist('PHS[]')
+        PHS_type = request.form.getlist('phs_type[]')
 
         haz_set = set()
         for hw in haz_waste_list:
@@ -105,6 +106,11 @@ def create_app():
             disposal_info_string = None
 
         PHS = any(PHS_list)
+
+        if len(PHS_type) > 0:
+            PHS_type = list(set(PHS_type))
+        else:
+            PHS_type = []
 
         print(haz_waste_list)
         print(disposal_info_string)
@@ -134,7 +140,8 @@ def create_app():
             'date' : date.today().strftime("%B %d, %Y"),
             'disposal' : disposal_info_string,
             'hazwaste' : hazwaste_info_string,
-            'PHS' : PHS
+            'PHS' : PHS,
+            'PHS_types' : PHS_type
         }
 
         return render_template('secondary_label.html', data = label_dict)
