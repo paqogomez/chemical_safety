@@ -84,3 +84,22 @@ th {
     background-color: #f2f2f2; /* A light grey background for header cells */
     font-weight: bold; /* Makes header text bold */
 }
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left-side {
+    flex: 4; 
+    padding: 10px; /* Add some padding if needed */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.right-side {
+    flex: 1; 
+    padding: 10px; /* Add some padding if needed */
+    box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+    border-left: 1px solid #aa989c; /* Add a 1px solid border on the left side */
+}
+

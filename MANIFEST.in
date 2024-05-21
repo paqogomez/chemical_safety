@@ -1,0 +1,10 @@
+include README.md
+include LICENSE
+include setup.py
+include logo.png
+recursive-include chemical_safety *.py
+recursive-include chemical_safety/chemical/lists *.csv
+recursive-include chemical_safety/chemical/pictograms *
+recursive-include chemical_safety/chemical/tables *
+recursive-include chemical_safety/dashboard/static *
+recursive-include chemical_safety/dashboard/templates *

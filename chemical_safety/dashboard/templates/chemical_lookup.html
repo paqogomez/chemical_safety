@@ -14,33 +14,55 @@
     </header>
     
     <h1>{{result.full_name}}</h1>
-    <div>
-        <h2>{{result.signal_word}}</h2>
-        <div id="pictograms">
-            {% if result.pictograms %}
-                {% for pictogram in result.pictograms %}
-                    <img src="{{ url_for('static', filename='img/' + pictogram + '.svg') }}" alt="{{ pictogram }}" title="{{ pictogram }}">
-                {% endfor %}
-            {% endif %}
-        </div>
-        {% if result.WSU_particularly_hazardous %}
-            <div class="phs">
-                <p>This is a Particularly Hazardous Substance</p>
-                {% if result.WSU_highly_acute_toxin %}<li>Highly acute toxin</li>{% endif %}
-                {% if result.WSU_reproductive_toxin %}<li>Reproductive toxin</li>{% endif %}
-                {% if result.WSU_carcinogen %}<li>Carcinogen</li>{% endif %}
+    <div class="container">
+        <div class="left-side">
+            <h2>{{result.signal_word}}</h2>
+            <div id="pictograms">
+                {% if result.pictograms %}
+                    {% for pictogram in result.pictograms %}
+                        <img src="{{ url_for('static', filename='img/' + pictogram + '.svg') }}" alt="{{ pictogram }}" title="{{ pictogram }}">
+                    {% endfor %}
+                {% endif %}
             </div>
-        {% endif %}
-        {% if result.WSU_No_GHS %}
-            <div class="phs"><p>This compound has no safety information available</p></div>
-        {% endif %}
-        <div id="hazard-statements">
-            <br>
-            {% if result.hazard_statements %}
-                {% for hs in result.hazard_statements %}
-                    <li>{{hs}}</li>
-                {% endfor %}
+            {% if result.WSU_particularly_hazardous %}
+                <div class="phs">
+                    <p>This is a Particularly Hazardous Substance</p>
+                    {% if result.WSU_highly_acute_toxin %}<li>Highly acute toxin</li>{% endif %}
+                    {% if result.WSU_reproductive_toxin %}<li>Reproductive toxin</li>{% endif %}
+                    {% if result.WSU_carcinogen %}<li>Carcinogen</li>{% endif %}
+                </div>
             {% endif %}
+            {% if result.WSU_No_GHS %}
+                <div class="phs"><p>This compound has no safety information available</p></div>
+            {% endif %}
+            <div id="hazard-statements">
+                <br>
+                {% if result.hazard_statements %}
+                    {% for hs in result.hazard_statements %}
+                        <li>{{hs}}</li>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+        <div class="right-side">
+            <p>
+                {{result.IUPAC_name}}<br>
+                <br>{{result.dp_molecule.simple_html | safe}}
+                <br> cid: <a href="https://pubchem.ncbi.nlm.nih.gov/compound/{{ result.cid }}" target="_blank" style="color: #8446ac; text-decoration: none;">{{ result.cid }}</a>
+                <br>FM: {{result.dp_molecule.molecular_weight.html | safe}} g/mol
+                {% if result.melting_point %}
+                    <br> MP: {{((result.melting_point-32)*5/9) | int}} °C
+                {% endif %}
+                {% if result.boiling_point %}
+                    <br> BP: {{((result.boiling_point-32)*5/9) | int}} °C
+                {% endif %}
+                {% if result.density %}
+                    <br> ρ: {{result.density | round(2)}} g/mL
+                {% endif %}
+                {% if result.SMILES %}
+                    <br><img src="data:image/png;base64,{{ result.generate_imgstring() }}" alt="Molecule Image">
+                {% endif %}
+            </p>
         </div>
     </div>
 

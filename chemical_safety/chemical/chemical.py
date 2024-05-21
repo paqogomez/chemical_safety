@@ -8,6 +8,12 @@ from datetime import datetime, timedelta
 import pandas as pd
 import re
 import Levenshtein as lev
+from io import BytesIO
+import base64
+from rdkit import Chem as rdkChem
+from rdkit.Chem import Draw as rdkDraw
+from scipy import stats
+import numpy as np
 
 from .molecule import molecule
 
@@ -50,13 +56,14 @@ class chemical:
 
         self.name_difference = self._parse_name_difference()
 
-        self.dp_molecule, self.SMILES = self._parse_molecular_info()
+        self.dp_molecule, self.SMILES, self.IUPAC_name = self._parse_molecular_info()
 
         self.signal_word , self.pictograms, self.hazard_statements, self.hazard_codes, self.p_statements, self.p_codes = self._parse_GHS()
 
         self.WSU_particularly_hazardous, self.WSU_carcinogen, self.WSU_reproductive_toxin, self.WSU_highly_acute_toxin, self.WSU_No_GHS, self.WSU_PHC_info = self._check_if_particularly_hazardous()
 
-        self.flammability_class, self.flammability_class_info, self.flash_point, self.boiling_point = self._parse_flammability_info()
+        self.flash_point, self.boiling_point, self.melting_point, self.density = self._parse_physical_properties() 
+        self.flammability_class, self.flammability_class_info = self._parse_flammability_info()
 
         self.peroxide_class, self.peroxide_class_info = self._parse_peroxide_info()
 
@@ -190,7 +197,15 @@ class chemical:
                         SMILES_string = i['Value']['StringWithMarkup'][0]['String']
                         if len(SMILES_string) > 0:
                             break
-        return molec, SMILES_string
+
+                IUPAC_name_entry = next((item for item in CDs['Section'] if item['TOCHeading'] == 'IUPAC Name'), None)
+                if IUPAC_name_entry:
+                    for i in IUPAC_name_entry['Information']:
+                        IUPAC_name_string = i['Value']['StringWithMarkup'][0]['String']
+                        if len(IUPAC_name_string) > 0:
+                            break 
+        
+        return molec, SMILES_string, IUPAC_name_string
 
     def _parse_GHS(self):
         """
@@ -256,13 +271,13 @@ class chemical:
                         percentage = float(match.group(2))  # percentage like '29.97'
                         text_statement = match.group(3).strip()  # statement text
                         if "Danger" in statement:
-                            signal_word = "Danger"
+                            statement_signal_word = "Danger"
                         else:
-                            signal_word = "Warning"
+                            statement_signal_word = "Warning"
 
                         if percentage > 20:
                             hazard_codes.append(h_code)
-                            hazard_statements.append(f'{signal_word}: {text_statement} ({h_code})')
+                            hazard_statements.append(f'{statement_signal_word}: {text_statement} ({h_code})')
         danger_statements = [s for s in hazard_statements if "Danger:" in s]
         warning_statements = [s for s in hazard_statements if "Warning:" in s]
         hazard_statements = danger_statements + warning_statements
@@ -379,6 +394,15 @@ class chemical:
             subprocess.run(['start', sFile], shell=True)
         return sFile
     
+    def generate_imgstring(self):
+        m = rdkChem.MolFromSmiles(self.SMILES)
+        img = rdkDraw.MolToImage(m,size=(150,150),fitImage=False)
+        buffer = BytesIO()
+        img.save(buffer, format="PNG")
+        img_str = base64.b64encode(buffer.getvalue()).decode("utf-8")
+        return img_str
+        
+
     #--------------------------------------------------------------------------------------------------------------------
     #Now we transition to some Weber-State specific checks that ultimately feed into a Particularly Hazardous designation
     def _check_cid_carcinogenlists(self):  
@@ -599,14 +623,13 @@ class chemical:
             WSU_No_GHS = False
 
         return particularly_hazardous, WSU_carcinogen, WSU_reproductive_toxin, WSU_highly_acute_toxin, WSU_No_GHS, info_dict
-
-    def _parse_flammability_info(self):
-
-        flam_class = None 
-        flam_info = None
-        flash_point = None 
-        boiling_point = None
-
+    
+    def _parse_physical_properties(self):
+        boiling_point = None 
+        melting_point = None
+        flash_point = None
+        density = None
+        
         PhysicalProp = next((item for item in self._full_json['Record']['Section'] if item['TOCHeading'] == 'Chemical and Physical Properties'), None)
         if PhysicalProp:
             ExperimentalProp = next((item for item in PhysicalProp['Section'] if item['TOCHeading'] == 'Experimental Properties'), None)
@@ -645,6 +668,47 @@ class chemical:
                     if len(fp_list) > 0:
                         flash_point = sum(fp_list) / len(fp_list)
 
+                MP = next((item for item in ExperimentalProp['Section'] if item['TOCHeading'] == 'Melting Point'), None)
+                if MP:
+                    mp_list = []
+                    for mp_i in MP["Information"]:
+                        try:
+                            mp_string = mp_i['Value']['StringWithMarkup'][0]['String']
+                            matches = re.findall(r'(-?\d+\.?\d*)\s*°\s*([CF])', mp_string)
+                            for match in matches:
+                                temp, unit = float(match[0]), match[1]
+                                if unit == 'C':
+                                    temp = (temp * 9/5) + 32
+                                mp_list.append(temp)
+                        except:
+                            pass
+                    if len(mp_list)>0:
+                        melting_point = sum(mp_list) / len(mp_list)
+
+                densities = next((item for item in ExperimentalProp['Section'] if item['TOCHeading'] == 'Density'), None)
+                if densities:
+                    d_list = []
+                    for d_i in densities["Information"]:
+                        try:
+                            d_string = d_i['Value']['StringWithMarkup'][0]['String']
+                            matches = re.findall(r'\b(\d+\.\d+)\b', d_string)
+                            for match in matches:
+                                d = float(match)
+                                d_list.append(d)
+                        except:
+                            pass
+                    if len(d_list)>0:
+                        density = _fudged_stats(d_list)
+                
+        return flash_point, boiling_point, melting_point, density
+    
+    def _parse_flammability_info(self):
+
+        flam_class = None 
+        flam_info = None
+        flash_point = self.flash_point 
+        boiling_point = self.boiling_point
+
         if flash_point:
             if flash_point < 100:   #class I
                 if flash_point < 73: #class IA and IB
@@ -665,7 +729,7 @@ class chemical:
                 flam_class = "IIIB"
                 flam_info = "Can ignite when heated above 200 °F / 93 °C."
 
-        return flam_class, flam_info, flash_point, boiling_point
+        return flam_class, flam_info
 
     def _parse_peroxide_info(self):
         current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -758,6 +822,41 @@ class chemical:
         different = distance > 1
 
         return different
+    
+def _fudged_stats(data):
+    #takes a list of data and tries to guess what data is real and what is garbage
+    # mostly used to take values of BP/MP/density and throw out the random numbers that were incorrectly included (e.g. years)
+    
+    data = np.array(data)
+    
+    # Step 1: Compute initial mean and mode
+    initial_mean = np.mean(data)
+    mode_value, mode_count = stats.mode(data)
+    
+    # Step 2: Identify and remove outliers using the interquartile range (IQR) method
+    Q1 = np.percentile(data, 25)
+    Q3 = np.percentile(data, 75)
+    IQR = Q3 - Q1
+    lower_bound = Q1 - 1.5 * IQR
+    upper_bound = Q3 + 1.5 * IQR
+    cleaned_data = data[(data >= lower_bound) & (data <= upper_bound)]
+    
+    # Step 3: Recompute mean and mode of cleaned data
+    cleaned_mean = np.mean(cleaned_data) if cleaned_data.size > 0 else initial_mean
+    cleaned_mode_result = stats.mode(cleaned_data, nan_policy='omit')
+    
+    if isinstance(cleaned_mode_result.mode, np.ndarray):
+        cleaned_mode_value = cleaned_mode_result.mode[0] if cleaned_mode_result.mode.size > 0 else None
+        cleaned_mode_count = cleaned_mode_result.count[0] if cleaned_mode_result.count.size > 0 else 0
+    else:
+        cleaned_mode_value = cleaned_mode_result.mode
+        cleaned_mode_count = cleaned_mode_result.count
+    
+    # Step 4: Return the best value representing the central tendency
+    if cleaned_mode_count > 1:  # If mode is repeated, it's a good candidate
+        return cleaned_mode_value
+    else:
+        return cleaned_mean
         
 
 if __name__ == "__main__":
