@@ -1,11 +1,29 @@
 from flask import Flask, render_template, request, redirect, url_for
 import os
+import shutil
 import re
+import json
 from difflib import SequenceMatcher
 from natsort import natsorted
 from datetime import date
 
 from chemical_safety.chemical import chemical
+
+# Define the paths
+package_config_path = os.path.join(os.path.dirname(__file__), 'config.json')
+user_config_dir = os.path.expanduser('~/.chemical_safety')
+user_config_path = os.path.join(user_config_dir, 'config.json')
+
+# Ensure the user config directory exists
+os.makedirs(user_config_dir, exist_ok=True)
+
+# Copy default config to user directory if it doesn't exist
+if not os.path.exists(user_config_path):
+    shutil.copyfile(package_config_path, user_config_path)
+
+# Load configuration
+with open(user_config_path) as config_file:
+    CONFIG = json.load(config_file)
 
 def create_app():
     app = Flask(__name__)
@@ -183,7 +201,15 @@ def build_course_summary(search_term):
     return exp_summary, best_course
         
 def get_course_list():
-    directory_path = 'static/courses'
+
+    user_static_dir = CONFIG.get('user_courses_dir', 'None')
+
+    # Check if user has set a valid directory
+    if user_static_dir == "None" or not os.path.exists(os.path.expanduser(user_static_dir)):
+        directory_path = 'static/courses'
+    else:
+        directory_path = user_static_dir
+    
     course_list = []
 
     pattern = re.compile(r'^([A-Z]{4})(\d{4})$')
@@ -201,7 +227,17 @@ def get_course_list():
     return natsorted(course_list)
 
 def list_experiments(course):
-    directory_path = os.path.join('static/courses', course.replace(' ', ''))
+    
+    course = course.replace(' ', '')
+
+    user_static_dir = CONFIG.get('user_courses_dir', 'None')
+
+    # Check if user has set a valid directory
+    if user_static_dir == "None" or not os.path.exists(os.path.expanduser(user_static_dir)):
+        directory_path = os.path.join('static/courses', course)
+    else:
+        directory_path = os.path.join(os.path.expanduser(user_static_dir), course)
+    
     txt_files = []
     if os.path.exists(directory_path):
         for filename in os.listdir(directory_path):
@@ -223,13 +259,21 @@ def get_experiment_chem_list(search_term):
         best_course, _ = custom_match(f"{match.group(0)} {match.group(1)}", course_list)[0]
         search_term = search_term.replace(match.group(0), '')
 
+    user_static_dir = CONFIG.get('user_courses_dir', 'None')
+
+    # Check if user has set a valid directory
+    if user_static_dir == "None" or not os.path.exists(os.path.expanduser(user_static_dir)):
+        directory_path = os.path.join('static/courses', course)
+    else:
+        directory_path = os.path.join(os.path.expanduser(user_static_dir), course)
+    
     if best_course:
-        directory_path = os.path.join('static/courses', best_course.replace(' ', ''))
+        directory_path = os.path.join(directory_path, best_course.replace(' ', ''))
         txt_files = [os.path.splitext(f)[0] for f in os.listdir(directory_path) if f.endswith('.txt')]
     else:
         txt_files_dict = {}
         for course in course_list:
-            directory_path = os.path.join('static/courses', course.replace(' ', ''))
+            directory_path = os.path.join(directory_path, course.replace(' ', ''))
             for f in os.listdir(directory_path): 
                 if f.endswith('.txt'):
                     f_name = os.path.splitext(f)[0]
