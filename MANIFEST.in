@@ -2,6 +2,7 @@ include README.md
 include LICENSE
 include setup.py
 include logo.png
+include chemical_safety/dashboard/config.json
 recursive-include chemical_safety *.py
 recursive-include chemical_safety/chemical/lists *.csv
 recursive-include chemical_safety/chemical/pictograms *

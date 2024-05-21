@@ -99,7 +99,7 @@ class chemical:
 
         # If the compound is not in the CSV or the date is too old, make the API call
         encoded_compound_name = urllib.parse.quote(compound_name)
-        print(encoded_compound_name)
+        
         search_url = f'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/{encoded_compound_name}/cids/JSON'
         response = requests.get(search_url)
 

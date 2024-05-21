@@ -263,9 +263,9 @@ def get_experiment_chem_list(search_term):
 
     # Check if user has set a valid directory
     if user_static_dir == "None" or not os.path.exists(os.path.expanduser(user_static_dir)):
-        directory_path = os.path.join('static/courses', course)
+        directory_path = 'static/courses'
     else:
-        directory_path = os.path.join(os.path.expanduser(user_static_dir), course)
+        directory_path = os.path.expanduser(user_static_dir)
     
     if best_course:
         directory_path = os.path.join(directory_path, best_course.replace(' ', ''))
@@ -273,11 +273,11 @@ def get_experiment_chem_list(search_term):
     else:
         txt_files_dict = {}
         for course in course_list:
-            directory_path = os.path.join(directory_path, course.replace(' ', ''))
-            for f in os.listdir(directory_path): 
+            course_directory_path = os.path.join(directory_path, course.replace(' ', ''))
+            for f in os.listdir(course_directory_path): 
                 if f.endswith('.txt'):
                     f_name = os.path.splitext(f)[0]
-                    txt_files_dict[f_name] = directory_path
+                    txt_files_dict[f_name] = course_directory_path
         txt_files = txt_files_dict.keys()
 
     best_experiment, _ = custom_match(search_term, txt_files)[0]
