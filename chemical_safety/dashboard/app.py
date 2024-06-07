@@ -171,7 +171,10 @@ def enumerate(sequence, start=0):
 
 def build_course_summary(search_term):
     course_list = get_course_list()
-    best_course, _ = custom_match(search_term,course_list)[0]
+    custom_matched = custom_match(search_term,course_list)
+    best_course = ''
+    if custom_matched:
+        best_course, _ = custom_matched[0]
     directory_path = os.path.join('static/courses', best_course.replace(' ', ''))
     exp_names = [f for f in list_experiments(best_course)]
 
