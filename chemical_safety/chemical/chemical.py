@@ -117,6 +117,10 @@ class chemical:
 
             if response.status_code == 200:
                 data = response.json()
+                dt = 'dictionary_terms' in data
+                c = False #'compound' in data['dictionary_terms']
+                if not dt or not c:
+                    raise Exception(encoded_compound_name)
                 suggestions = data['dictionary_terms']['compound']
                 suggestion = sorted(suggestions, key=lambda x: lev.distance(compound_name, x))[0]
                 print(f'No results for "{compound_name}". Trying "{suggestion}"')
@@ -198,6 +202,7 @@ class chemical:
                         if len(SMILES_string) > 0:
                             break
 
+                IUPAC_name_string = ''
                 IUPAC_name_entry = next((item for item in CDs['Section'] if item['TOCHeading'] == 'IUPAC Name'), None)
                 if IUPAC_name_entry:
                     for i in IUPAC_name_entry['Information']:
